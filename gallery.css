@@ -1,0 +1,25 @@
+/* Gallery block: section links to Google reviews, marquee of images (same height, different widths) */
+
+.gallery {
+  margin-bottom: 60px;
+}
+
+.gallery__link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.gallery .marquee__strip {
+  gap: 6px;
+}
+
+.gallery__image {
+  display: block;
+  height: 300px;
+  width: auto;
+  object-fit: cover;
+  flex-shrink: 0;
+  pointer-events: none;
+}

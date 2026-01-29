@@ -20,6 +20,7 @@
     var speed = parseSpeed(el.getAttribute('data-marquee-speed'));
     var paused = false;
     var rafId = null;
+    var position = 0;
 
     function tick() {
       if (paused) {
@@ -31,8 +32,10 @@
         rafId = requestAnimationFrame(tick);
         return;
       }
-      el.scrollLeft += speed;
-      if (el.scrollLeft >= maxScroll) {
+      position += speed;
+      el.scrollLeft = position;
+      if (position >= maxScroll) {
+        position = 0;
         el.scrollLeft = 0;
       }
       rafId = requestAnimationFrame(tick);
