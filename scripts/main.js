@@ -61,9 +61,39 @@
     }
   }
 
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', init);
-  } else {
+  function initGalleryLazy() {
+    var gallery = document.querySelector('.gallery');
+    if (!gallery) return;
+    var images = gallery.querySelectorAll('img[data-src]');
+    if (images.length === 0) return;
+    var observer = new IntersectionObserver(
+      function (entries) {
+        entries.forEach(function (entry) {
+          if (!entry.isIntersecting) return;
+          var section = entry.target;
+          section.querySelectorAll('img[data-src]').forEach(function (img) {
+            var src = img.getAttribute('data-src');
+            if (src) {
+              img.src = src;
+              img.removeAttribute('data-src');
+            }
+          });
+          observer.unobserve(section);
+        });
+      },
+      { rootMargin: '200px', threshold: 0 }
+    );
+    observer.observe(gallery);
+  }
+
+  function onReady() {
     init();
+    initGalleryLazy();
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', onReady);
+  } else {
+    onReady();
   }
 })();
