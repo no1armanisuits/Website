@@ -1,0 +1,20 @@
+/* Marquee block: horizontal scroll container (element with data-marquee) */
+
+.marquee {
+  overflow-x: auto;
+  overflow-y: hidden;
+  min-height: 280px;
+  scrollbar-width: thin;
+  -webkit-overflow-scrolling: touch;
+}
+
+.marquee__strip {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 1.5rem;
+  align-items: stretch;
+}
+
+.marquee__strip > * {
+  flex-shrink: 0;
+}
