@@ -63,6 +63,84 @@ main {
     
 }
 
+/* Introduction section */
+.intro {
+    padding: 60px 40px 80px;
+    background: #fff;
+}
+
+.intro__headline {
+    color: #1a1a1a;
+    margin-bottom: 50px;
+    font-size: 2.2em;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e0e0e0;
+    font-family: 'Georgia', serif;
+}
+
+.intro__content {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.intro__text {
+    flex: 1;
+    min-width: 0;
+}
+
+.intro__text p {
+    color: #555;
+    font-size: 1.05em;
+    line-height: 1.8;
+    margin-bottom: 1.2em;
+}
+
+.intro__text p:last-child {
+    margin-bottom: 0;
+}
+
+.intro__image-wrap {
+    flex-shrink: 0;
+    width: 200px;
+}
+
+.intro__image {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    object-position: right center;
+}
+
+@media (max-width: 768px) {
+    .intro {
+        padding: 40px 20px 60px;
+    }
+
+    .intro__content {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .intro__image-wrap {
+        width: 200px;
+        margin: 0 auto;
+        order: -1;
+    }
+
+    .intro__headline {
+        font-size: 1.6em;
+        letter-spacing: 2px;
+    }
+}
+
 .contact-section h2 {
     color: #1a1a1a;
     margin-bottom: 40px;
@@ -73,6 +151,45 @@ main {
     text-transform: uppercase;
     padding-bottom: 20px;
     border-bottom: 1px solid #e0e0e0;
+}
+
+/* Map section */
+.map-section {
+    padding: 60px 40px 80px;
+    background: #fafafa;
+}
+
+.map-section__title {
+    color: #1a1a1a;
+    margin-bottom: 40px;
+    font-size: 2.2em;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.map-section__link {
+    display: block;
+    max-width: 1000px;
+    margin: 0 auto;
+    border: 1px solid #e8e8e8;
+    overflow: hidden;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.map-section__link:hover {
+    border-color: #1a1a1a;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.map-section__image {
+    width: 100%;
+    height: auto;
+    display: block;
+    vertical-align: middle;
 }
 
 .contact-info {
@@ -165,6 +282,15 @@ footer {
     }
     
     .contact-section h2 {
+        font-size: 1.6em;
+        letter-spacing: 2px;
+    }
+
+    .map-section {
+        padding: 40px 20px 60px;
+    }
+
+    .map-section__title {
         font-size: 1.6em;
         letter-spacing: 2px;
     }
