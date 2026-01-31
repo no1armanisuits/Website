@@ -8,11 +8,13 @@
     <link rel="preload" href="styles/marquee.css" as="style">
     <link rel="preload" href="styles/reviews.css" as="style">
     <link rel="preload" href="styles/gallery.css" as="style">
+    <link rel="preload" href="styles/timeline.css" as="style">
     <link rel="preload" href="scripts/main.js" as="script">
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/marquee.css">
     <link rel="stylesheet" href="styles/reviews.css">
     <link rel="stylesheet" href="styles/gallery.css">
+    <link rel="stylesheet" href="styles/timeline.css">
     <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -108,11 +110,12 @@
 <body>
     <div class="container">
         <header>
+            <img src="images/hero.jpg" alt="No.1 Armani Suits store interior" class="header__bg" width="1200" height="500" loading="eager">
             <h1>No.1 Armani Suits</h1>
         </header>
         
         <main>
-            <section class="reviews">
+            <section id="reviews" class="reviews">
   <h2 class="reviews__title">What our customers say</h2>
   <div class="marquee" data-marquee data-marquee-speed="0.2">
     <div class="marquee__strip">
@@ -181,9 +184,35 @@ After talking to many stores around the area this place was by far the best with
     </div>
   </div>
 </section>
-            
 
-<section class="gallery">
+            <section id="how-it-works" class="how-it-works">
+                <h2 class="how-it-works__title">How it works</h2>
+                <div class="timeline">
+                    <div class="timeline__item">
+                        <span class="timeline__number">1</span>
+                        <div class="timeline__content">
+                            <h3 class="timeline__heading">First consultation</h3>
+                            <p class="timeline__text">Discuss your style, fabric choices and timeline with our tailor.</p>
+                        </div>
+                    </div>
+                    <div class="timeline__item">
+                        <span class="timeline__number">2</span>
+                        <div class="timeline__content">
+                            <h3 class="timeline__heading">Measurements</h3>
+                            <p class="timeline__text">Precise measurements are taken to ensure a perfect fit.</p>
+                        </div>
+                    </div>
+                    <div class="timeline__item">
+                        <span class="timeline__number">3</span>
+                        <div class="timeline__content">
+                            <h3 class="timeline__heading">First fitting</h3>
+                            <p class="timeline__text">Try on your suit and we make any adjustments for the final fit.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+<section id="gallery" class="gallery">
   <a href="https://maps.app.goo.gl/QiZbAipketzEabZZ9" target="_blank" rel="noopener" class="gallery__link">
     <div class="marquee" data-marquee data-marquee-speed="0.3">
       <div class="marquee__strip">
@@ -206,7 +235,7 @@ After talking to many stores around the area this place was by far the best with
   </a>
 </section>
 
-            <section class="contact-section">
+            <section id="contact" class="contact-section">
                 <h2>Contact Information</h2>
                 
                 <div class="contact-info">
