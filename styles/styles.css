@@ -9,12 +9,16 @@ html {
 }
 
 body {
-    font-family: 'Times New Roman', serif;
+    font-family: 'Inter', sans-serif;
     line-height: 1.8;
     color: #2c2c2c;
     background: #f5f5f5;
     min-height: 100vh;
     padding:0;
+}
+
+h1, h2, h3 {
+    font-family: 'Tiro Bangla', 'Times New Roman', serif;
 }
 
 .container {
@@ -41,7 +45,7 @@ body {
     color: #fff;
     font-size: 1em;
     letter-spacing: 3px;
-    font-family: 'Georgia', serif;
+    font-family: 'Tiro Bangla', 'Times New Roman', serif;
     font-weight: 400;
 }
 
@@ -59,7 +63,7 @@ body {
     text-decoration: none;
     font-size: 0.9em;
     letter-spacing: 2px;
-    font-family: 'Georgia', serif;
+    font-family: 'Inter', sans-serif;
     transition: color 0.2s ease;
 }
 
@@ -95,7 +99,7 @@ header h1 {
     font-weight: 300;
     letter-spacing: 8px;
     text-transform: uppercase;
-    font-family: 'Georgia', serif;
+    font-family: 'Tiro Bangla', 'Times New Roman', serif;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -123,7 +127,7 @@ main {
     text-transform: uppercase;
     padding-bottom: 20px;
     border-bottom: 1px solid #e0e0e0;
-    font-family: 'Georgia', serif;
+    font-family: 'Tiro Bangla', 'Times New Roman', serif;
 }
 
 .intro__content {
@@ -195,6 +199,7 @@ main {
     text-transform: uppercase;
     padding-bottom: 20px;
     border-bottom: 1px solid #e0e0e0;
+    font-family: 'Tiro Bangla', 'Times New Roman', serif;
 }
 
 /* Map section */
@@ -213,6 +218,7 @@ main {
     text-transform: uppercase;
     padding-bottom: 20px;
     border-bottom: 1px solid #e0e0e0;
+    font-family: 'Tiro Bangla', 'Times New Roman', serif;
 }
 
 .map-section__link {
@@ -262,7 +268,7 @@ main {
     font-weight: 400;
     letter-spacing: 2px;
     text-transform: uppercase;
-    font-family: 'Georgia', serif;
+    font-family: 'Tiro Bangla', 'Times New Roman', serif;
 }
 
 .contact-item p {
