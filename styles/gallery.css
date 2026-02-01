@@ -1,8 +1,5 @@
 /* Gallery block: section links to Google reviews, marquee of images (same height, different widths) */
 
-.gallery {
-  margin-bottom: 60px;
-}
 
 .gallery__link {
   display: block;
@@ -12,7 +9,7 @@
 }
 
 .gallery .marquee__strip {
-  gap: 6px;
+  gap: 15px;
 }
 
 .gallery__image {

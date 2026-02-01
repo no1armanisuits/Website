@@ -1,8 +1,5 @@
 /* Reviews block: section and cards (BEM) */
 
-.reviews {
-  margin-bottom: 60px;
-}
 
 .reviews__title {
   color: #1a1a1a;

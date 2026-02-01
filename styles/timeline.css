@@ -1,6 +1,5 @@
 /* How it works – timeline */
 .how-it-works {
-    padding: 60px 40px 80px;
     background: #fafafa;
 }
 
@@ -38,7 +37,7 @@
     position: relative;
     display: flex;
     align-items: flex-start;
-    margin-bottom: 50px;
+    margin-bottom: 15px;
     padding-left: 50%;
     padding-right: 0;
 }
@@ -114,9 +113,6 @@
 }
 
 @media (max-width: 768px) {
-    .how-it-works {
-        padding: 40px 20px 60px;
-    }
 
     .timeline::before {
         left: 22px;
