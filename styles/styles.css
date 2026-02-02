@@ -184,6 +184,11 @@ main > section {
     box-sizing: border-box;
 }
 
+section .section__headline, section .section__subtitle {
+    width:1200px;
+    margin:0 auto 1rem auto;
+}
+
 /* Introduction section */
 .intro {
     background: #FBE4D7;
@@ -217,6 +222,7 @@ main > section {
     line-height: 1.8;
     margin-bottom: 1.2em;
     font-weight:400;
+    max-width:50em;
 }
 
 .intro__text p:last-child {

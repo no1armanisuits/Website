@@ -1,16 +1,18 @@
 /* Reviews block: section and cards (BEM) */
 
 
-.reviews__title {
-  color: #1a1a1a;
-  margin-bottom: 30px;
+.reviews__title {  
   font-size: 2.2em;
   text-align: left;
   font-weight: 300;
   text-transform: uppercase;
-  padding-bottom: 20px;
-  border-bottom: 1px solid #e0e0e0;
+  color:#663E3E;
   font-family: 'Tiro Bangla', 'Times New Roman', serif;
+  width:1200px;
+  margin:0 auto;
+}
+.reviews__subtitle {
+  color:#7E6B59;
 }
 
 .reviews__card {
