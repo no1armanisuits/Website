@@ -24,7 +24,7 @@ h1, h2, h3 {
 }
 
 .container {
-    max-width: 1200px;
+    width:100%;
     margin: 0 auto;
     background: #ffffff;
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.08);
@@ -46,7 +46,8 @@ h1, h2, h3 {
     text-transform: uppercase;
     color: #fff;
     font-size: 31px;
-    
+    position: relative;
+    top:3px;
     line-height: 1;
     font-family: 'Tiro Bangla', 'Times New Roman', serif;
     font-weight: 400;
@@ -149,8 +150,8 @@ header h1 {
     display: inline-block;
     padding: 0.3em 1.2em;
     border-radius: 7px;
-    background: #587267;
-    color: #F5F1E8;
+    background: #E1B39C;
+    color: #472A21;
     text-decoration: none;
     font-family: 'Inter', sans-serif;
     font-weight: 500;
@@ -160,7 +161,7 @@ header h1 {
 
 .cta:hover,
 .header__cta:hover {
-    background: #4B6158; /* #587267 darkened 15% */
+    background: #E8C0AD; /* #E1B39C lightened 10% */
 }
 
 .header__cta {

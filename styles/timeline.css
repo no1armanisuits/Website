@@ -1,18 +1,23 @@
 /* How it works – timeline */
 .how-it-works {
-    background: #fafafa;
+    background: #6E9183;
 }
 
 .how-it-works__title {
-    color: #1a1a1a;
-    margin-bottom: 50px;
+    color: #FFE9DC;
     font-size: 2.2em;
     text-align: left;
     font-weight: 300;
     text-transform: uppercase;
-    padding-bottom: 20px;
-    border-bottom: 1px solid #e0e0e0;
+    text-align: center;
+    
     font-family: 'Tiro Bangla', 'Times New Roman', serif;
+}
+
+.how-it-works__subtitle {
+    color: #F5F1E8;
+    margin-bottom: 2rem;
+    text-align: center;
 }
 
 .timeline {
@@ -28,7 +33,7 @@
     top: 0;
     bottom: 0;
     width: 2px;
-    background: #d0d0d0;
+    background: rgba(255, 233, 220, 0.6);
     transform: translateX(-50%);
 }
 
@@ -39,6 +44,7 @@
     margin-bottom: 15px;
     padding-left: 50%;
     padding-right: 0;
+    color:#F5F1E8;
 }
 
 .timeline__item:last-child {
@@ -54,7 +60,7 @@
 .timeline__item:nth-child(even) .timeline__content {
     margin-left: 0;
     margin-right: 40px;
-    text-align: right;
+    
 }
 
 .timeline__item:nth-child(odd) .timeline__content {
@@ -68,8 +74,8 @@
     transform: translateX(-50%);
     width: 44px;
     height: 44px;
-    background: #1a1a1a;
-    color: #fff;
+    background: #FFE9DC;
+    color: #6E9183;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -82,32 +88,46 @@
 }
 
 .timeline__content {
-    background: #fff;
-    padding: 28px 32px;
-    border: 1px solid #e8e8e8;
-    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+   
+    padding: 12px 32px 28px 32px;
+   
     max-width: 380px;
-    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+   
 }
 
-.timeline__content:hover {
-    border-color: #1a1a1a;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
-}
+
 
 .timeline__heading {
-    color: #1a1a1a;
+    color: #FFE9DC;
     margin-bottom: 10px;
-    font-size: 1.15em;
+    font-size: 1.5em;
     font-weight: 400;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-family: 'Tiro Bangla', 'Times New Roman', serif;
 }
 
 .timeline__text {
-    color: #555;
+    color: #F5F1E8;
     font-size: 1em;
     line-height: 1.7;
+}
+
+.how-it-works__cta-wrap {
+    margin-top: 3rem;
+    text-align: center;
+
+}
+
+.how-it-works__cta-text {
+    color: #FFE9DC;
+    margin: 0 0 1rem;
+    font-size: 1.25em;
+    font-weight: 400;
+    font-family: 'Tiro Bangla', 'Times New Roman', serif;
+}
+
+.how-it-works__cta-wrap .cta {
+    display: inline-block;
 }
 
 @media (max-width: 768px) {
