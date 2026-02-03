@@ -68,19 +68,25 @@
   border: 0;
 }
 
+.reviews__card-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 10px;
+}
+
 .reviews__card-name {
-  display: block;
   font-weight: 600;
   font-style: normal;
   color: #663E3E;
-  margin-bottom: 6px;
+  margin: 0;
   font-size: 1.05em;
   font-family: 'Tiro Bangla', 'Times New Roman', serif;
 }
 
 .reviews__card-rating {
-  display: inline-block;
-  margin-bottom: 10px;
+  flex-shrink: 0;
   font-size: 1.1em;
   color: #472A21;
 }
