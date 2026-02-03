@@ -8,6 +8,12 @@ html {
     scroll-behavior: smooth;
 }
 
+p a {
+    color: #472A21;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
 body {
     font-family: 'Inter', sans-serif;
     line-height: 1.8;
@@ -190,11 +196,11 @@ section .section__headline, section .section__subtitle {
 }
 
 /* Introduction section */
-.intro {
+.text-section {
     background: #FBE4D7;
 }
 
-.intro__headline {
+.text-section__headline {
     color: #663E3E;
     font-size: 2.2em;
     font-weight: 400;
@@ -203,7 +209,7 @@ section .section__headline, section .section__subtitle {
     font-family: 'Tiro Bangla', 'Times New Roman', serif;
 }
 
-.intro__content {
+.text-section__content {
     display: flex;
     align-items: center;
     gap: 15px;
@@ -211,12 +217,12 @@ section .section__headline, section .section__subtitle {
     color:#7E6B59;
 }
 
-.intro__text {
+.text-section__text {
     flex: 1;
     min-width: 0;
 }
 
-.intro__text p {
+.text-section__text p {
     color: #7E6B59;
     font-size: 1.05em;
     line-height: 1.8;
@@ -225,16 +231,16 @@ section .section__headline, section .section__subtitle {
     max-width:50em;
 }
 
-.intro__text p:last-child {
+.text-section__text p:last-child {
     margin-bottom: 0;
 }
 
-.intro__image-wrap {
+.text-section__image-wrap {
     flex-shrink: 0;
     
 }
 
-.intro__image {
+.text-section__image {
     width: 100%;
     height: auto;
     display: block;
@@ -249,18 +255,18 @@ section .section__headline, section .section__subtitle {
         padding-right: 20px;
     }
 
-    .intro__content {
+    .text-section__content {
         flex-direction: column;
         gap: 15px;
     }
 
-    .intro__image-wrap {
+    .text-section__image-wrap {
         width: 200px;
         margin: 0 auto;
         order: -1;
     }
 
-    .intro__headline {
+    .text-section__headline {
         font-size: 1.6em;
     }
 }
