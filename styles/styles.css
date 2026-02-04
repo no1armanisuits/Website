@@ -561,3 +561,11 @@ footer a:focus {
     display: none;
 }
 }
+
+/* Scroll-triggered animations (Animate.css) – duration for reveal effects */
+[data-scroll-animate] {
+    --animate-duration: 1.2s;
+}
+[data-scroll-animate].animate__animated {
+    --animate-duration: 1.2s;
+}

@@ -86,9 +86,37 @@
     observer.observe(gallery);
   }
 
+  /**
+   * Scroll-triggered Animate.css: when elements with data-scroll-animate enter view,
+   * add animate__animated + animate__{animationName}. Animation names: fadeInUp, fadeInLeft,
+   * fadeInRight, zoomIn, bounceInUp, etc. (see https://animate.style/)
+   */
+  function initScrollAnimate() {
+    var selector = '[data-scroll-animate]';
+    var elements = document.querySelectorAll(selector);
+    if (elements.length === 0) return;
+    var observer = new IntersectionObserver(
+      function (entries) {
+        entries.forEach(function (entry) {
+          if (!entry.isIntersecting) return;
+          var el = entry.target;
+          var animation = (el.getAttribute('data-scroll-animate') || 'fadeInUp').trim();
+          var prefix = 'animate__';
+          el.classList.add(prefix + 'animated', prefix + animation);
+          observer.unobserve(el);
+        });
+      },
+      { rootMargin: '0px 0px -80px 0px', threshold: 0.1 }
+    );
+    elements.forEach(function (el) {
+      observer.observe(el);
+    });
+  }
+
   function onReady() {
     init();
     initGalleryLazy();
+    initScrollAnimate();
   }
 
   if (document.readyState === 'loading') {
