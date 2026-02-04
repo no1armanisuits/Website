@@ -78,9 +78,9 @@
 
 .reviews__card-meta {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 0.5rem;
+  flex-direction: column-reverse;
+  align-items: flex-start;
+  gap: 0.35rem;
   margin-bottom: 8px;
 }
 
@@ -93,10 +93,26 @@
   font-family: 'Tiro Bangla', 'Times New Roman', serif;
 }
 
+.reviews__card-rating-row {
+  width:100%;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
 .reviews__card-rating {
   flex-shrink: 0;
-  font-size: 1em;
+  font-size: 2em;
   color: #472A21;
+  line-height:1;
+}
+
+.reviews__card-google {
+  margin-left:auto;
+  display: block;
+  height: 25px;
+  width: auto;
+  object-fit: contain;
 }
 
 .reviews__card-text {
