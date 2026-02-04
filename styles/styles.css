@@ -37,21 +37,71 @@ strong {
 
 .container {
     width:100%;
-    margin: 0 auto;
     background: #ffffff;
-    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.08);
-    overflow: hidden;
     padding:0;
+    margin:0;
     position: relative;
 }
 
 .top-bar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0.9rem 2rem;
     background: #9B7765F5;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.menu-toggle__input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    color: #fff;
+    margin-left: auto;
+}
+
+.menu-toggle__line {
+    display: block;
+    width: 24px;
+    height: 2px;
+    background: currentColor;
+    border-radius: 1px;
+    transition: transform 0.25s ease, opacity 0.2s ease;
+}
+
+#menu-toggle:checked ~ .menu-toggle .menu-toggle__line:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+}
+
+#menu-toggle:checked ~ .menu-toggle .menu-toggle__line:nth-child(2) {
+    opacity: 0;
+}
+
+#menu-toggle:checked ~ .menu-toggle .menu-toggle__line:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
 }
 
 .site-brand {
@@ -196,8 +246,8 @@ main > section {
     box-sizing: border-box;
 }
 
-section .section__headline, section .section__subtitle {
-    width:1200px;
+section .section__headline, 
+section .section__subtitle {
     margin:0 auto 1rem auto;
 }
 
@@ -258,13 +308,17 @@ section .section__headline, section .section__subtitle {
 
 @media (max-width: 768px) {
     main > section {
-        padding-left: 20px;
-        padding-right: 20px;
+        padding:48px 20px;
+    }
+
+    section .section__headline, 
+    section .section__subtitle {
+        text-align: center;
     }
 
     .text-section__content {
         flex-direction: column;
-        gap: 15px;
+        gap: 48px;
     }
 
     .text-section__image-wrap {
@@ -275,6 +329,7 @@ section .section__headline, section .section__subtitle {
 
     .text-section__headline {
         font-size: 1.6em;
+        text-align: center;
     }
 }
 
@@ -337,6 +392,7 @@ section .section__headline, section .section__subtitle {
 
 .contact-item {
     display: flex;
+    flex-direction: row-reverse;
     align-items: flex-start;
     gap: 1rem;
     padding: 0.75rem 0;
@@ -413,6 +469,7 @@ footer {
 }
 footer strong {
     text-transform: uppercase;
+    line-height: 1.2;
 }
 footer a {
     color: #F5F1E8;
@@ -427,19 +484,50 @@ footer a:focus {
 
 @media (max-width: 768px) {
     body {
-        padding: 20px 10px;
+        padding:0;
     }
 
     .top-bar {
         padding: 0.75rem 1.25rem;
     }
 
+    .menu-toggle {
+        display: flex;
+    }
+
+    .site-nav {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        left: auto;
+        margin: 0;
+        padding: 1rem 1.25rem;
+        background: #9B7765;
+        border-bottom-left-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        display: none;
+        min-width: 0;
+        width: auto;
+    }
+
+    #menu-toggle:checked ~ .site-nav {
+        display: block;
+    }
+
     .site-nav__list {
-        gap: 0 1rem;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0;
+    }
+
+    .site-nav__list li {
+        width: auto;
     }
 
     .site-nav__link {
-        font-size: 0.8em;
+        display: block;
+        padding: 0.5rem 0;
+        font-size: 1rem;
     }
     
     header {
@@ -447,16 +535,12 @@ footer a:focus {
         top: auto;
         left: auto;
         width: 100%;
-        height: max(500px, 75vh);
+        height: max(500px, 67vh);
         padding: 0;
     }
     
     main {
-        padding: 40px 20px;
-    }
-    
-    main {
-        padding: 40px 20px;
+        padding: 0;
     }
     
     .contact-list {
