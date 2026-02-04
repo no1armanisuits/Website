@@ -10,9 +10,9 @@
 }
 
 .usp__item {
+    border-radius: 8px;
     background: #FFFFFF;
     padding: 35px;
-    border: 1px solid #e8e8e8;
     color: #7E6B59;
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
     text-align: center;

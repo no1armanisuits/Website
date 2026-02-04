@@ -43,6 +43,16 @@ strong {
     position: relative;
 }
 
+/* Generic inner wrapper for section content: centered, max 984px */
+.section-inner {
+    width: 100%;
+    max-width: 984px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
 .top-bar {
     position: sticky;
     top: 0;
@@ -189,10 +199,10 @@ header .header__bg img {
 }
 
 header h1 {
-    margin: 0 0 24px;
+    margin: 0 0 0px;
     color: #FFE9DC;
     font-size: clamp(28px, 6.5vw + 1.5rem, 80px);
-    line-height: 1.2;
+    line-height: 1;
     font-weight: 400;
     text-transform: uppercase;
     font-family: 'Tiro Bangla', 'Times New Roman', serif;
@@ -200,7 +210,7 @@ header h1 {
 
 .header__tagline {
     margin: 0;
-    font-size: clamp(16px, 2vw + 0.9rem, 22px);
+    font-size: clamp(16px, 2vw + 0.9rem, 21px);
     font-weight: 500;
     line-height: 1.6;
     color: #FFF7F2;
@@ -212,8 +222,8 @@ header h1 {
     display: inline-block;
     padding: 0.3em 1.2em;
     border-radius: 7px;
-    background: #E1B39C;
-    color: #472A21;
+    background: #587267;
+    color: #F5F1E8;
     text-decoration: none;
     font-family: 'Inter', sans-serif;
     font-weight: 500;
@@ -241,14 +251,19 @@ main > section {
     margin-right: auto;
     padding-top: 68px;
     padding-bottom: 68px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 68px;
+    padding-right: 68px;
+    
     box-sizing: border-box;
 }
 
-section .section__headline, 
+section .section__headline {
+    margin:0 auto 0rem auto;
+    line-height: 1;
+}
 section .section__subtitle {
-    margin:0 auto 1rem auto;
+    margin:0 auto 32px auto;
+    
 }
 
 /* Introduction section */
