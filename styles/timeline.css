@@ -138,7 +138,7 @@
 @media (max-width: 768px) {
 
     .timeline::before {
-        left: 22px;
+        left: 43px;
         transform: none;
     }
 
