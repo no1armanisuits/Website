@@ -29,6 +29,12 @@ h1, h2, h3 {
     line-height: 1.2;
 }
 
+strong {
+    font-family: 'Tiro Bangla', 'Times New Roman', serif;
+    font-size: 2.625em; /* 42px at 16px base */
+    font-weight: 400;
+}
+
 .container {
     width:100%;
     margin: 0 auto;
@@ -207,6 +213,7 @@ section .section__headline, section .section__subtitle {
     text-transform: uppercase;
     padding-bottom: 0px;
     font-family: 'Tiro Bangla', 'Times New Roman', serif;
+    margin-bottom: 0.5em;
 }
 
 .text-section__content {
@@ -363,7 +370,11 @@ section .section__headline, section .section__subtitle {
     flex: 1;
     min-width: 0;
 }
-
+.contact-item__content a:hover,
+.contact-item__content a:focus,
+.contact-item__content a:active {
+    text-decoration: underline;
+}
 .contact-item h3 {
     color: #1a1a1a;
     margin-bottom: 0.35rem;
@@ -393,12 +404,25 @@ section .section__headline, section .section__subtitle {
 }
 
 footer {
-    background: #1a1a1a;
-    color: #ffffff;
+    background: #7E6B59;
+    color: #F5F1E8;
     text-align: center;
     padding: 30px;
     font-size: 0.85em;
-    border-top: 1px solid #333;
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+}
+footer strong {
+    text-transform: uppercase;
+}
+footer a {
+    color: #F5F1E8;
+    text-decoration: none;
+    outline: none;
+}
+
+footer a:hover,
+footer a:focus {
+    text-decoration: underline;
 }
 
 @media (max-width: 768px) {
