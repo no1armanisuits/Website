@@ -123,6 +123,12 @@ strong {
     line-height: 1;
     font-family: 'Tiro Bangla', 'Times New Roman', serif;
     font-weight: 400;
+    text-decoration: none;
+}
+.site-brand:hover,
+.site-brand:focus {
+    color: #fff;
+    text-decoration: none;
 }
 
 .site-nav {
@@ -383,9 +389,9 @@ section .section__subtitle {
 
 .map-section__link {
     display: block;
-    max-width: 1060px;
+    
     margin: 0 auto;
-    border: 1px solid #e8e8e8;
+    border: 0px solid #e8e8e8;
     overflow: hidden;
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
