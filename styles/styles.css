@@ -269,7 +269,7 @@ section .section__subtitle {
 .text-section__content {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 48px;
     margin: 0 auto;
     color:#7E6B59;
 }
@@ -296,6 +296,9 @@ section .section__subtitle {
     flex: 1;
     min-width: 0;
     align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
 
 .text-section__image {
@@ -563,9 +566,10 @@ footer a:focus {
 }
 }
 
-/* Scroll-triggered animations (Animate.css) – duration for reveal effects */
+/* Scroll-triggered animations (Animate.css) – hidden until animation runs */
 [data-scroll-animate] {
     --animate-duration: 1.2s;
+    opacity: 0;
 }
 [data-scroll-animate].animate__animated {
     --animate-duration: 1.2s;
