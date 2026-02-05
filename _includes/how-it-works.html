@@ -1,0 +1,23 @@
+{% assign d = site.data[page.lang] %}
+{% assign t = d.timeline %}
+<section id="how-it-works" class="how-it-works">
+    <div class="section-inner">
+        <h2 class="how-it-works__title" data-scroll-animate="fadeInUp">{{ t.title }}</h2>
+        <p class="how-it-works__subtitle" data-scroll-animate="fadeInUp">{{ t.subtitle }}</p>
+        <div class="timeline">
+            {% for step in t.steps %}
+            <div class="timeline__item" data-scroll-animate="fadeInRight">
+                <div class="timeline__content">
+                    <img src="{{ site.baseurl }}/{{ step.icon }}" alt="{{ step.icon_alt }}" class="timeline__icon" width="68" height="68">
+                    <h3 class="timeline__heading">{{ step.heading }}</h3>
+                    <p class="timeline__text">{{ step.text }}</p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="how-it-works__cta-wrap" data-scroll-animate="fadeInUp">
+            <p class="how-it-works__cta-text">{{ t.cta_text }}</p>
+            <a href="{{ t.cta_href }}" class="cta">{{ t.cta_label }}</a>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,6 @@
+# Jekyll configuration for No.1 Armani Suits
+# Repo root is site root. Set baseurl for GitHub Pages project site (e.g. /armani).
+title: "No.1 Armani Suits"
+url: "" # e.g. https://username.github.io
+baseurl: "" # e.g. /armani for project site; leave empty for local dev and user site
+lang: en

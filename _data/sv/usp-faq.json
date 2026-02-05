@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "icon": "images/icons/walkins.svg",
+      "icon_alt": "Open hours",
+      "heading": "Walk-ins welcome",
+      "text": "No appointment needed - drop by whenever it suits you. We are happy to help you find the right fit and style, whether you have a clear idea or just want to browse and chat."
+    },
+    {
+      "icon": "images/icons/parking.svg",
+      "icon_alt": "Parking",
+      "heading": "Free parking",
+      "text": "Free parking is available, so you can visit us without worrying about where to leave your car. Stop by at your convenience."
+    }
+  ]
+}

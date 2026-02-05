@@ -1,0 +1,18 @@
+{% assign d = site.data[page.lang] %}
+{% assign nav = d.nav %}
+<div class="top-bar">
+    <a href="#" class="site-brand">{{ nav.brand }}</a>
+    <input type="checkbox" id="menu-toggle" class="menu-toggle__input" aria-label="Toggle menu">
+    <label for="menu-toggle" class="menu-toggle" aria-label="Toggle menu">
+        <span class="menu-toggle__line"></span>
+        <span class="menu-toggle__line"></span>
+        <span class="menu-toggle__line"></span>
+    </label>
+    <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul class="site-nav__list">
+            {% for link in nav.links %}
+            <li><a href="{{ link.href }}" class="site-nav__link">{{ link.label }}</a></li>
+            {% endfor %}
+        </ul>
+    </nav>
+</div>

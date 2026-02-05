@@ -1,0 +1,36 @@
+{
+  "headline": "Find us",
+  "paragraphs": [
+    "The easiest way to start your journey to the perfect tailored piece is simply to walk in to our Tailorshop in the heart of Patong.",
+    "If you want to book in advance; please contact us on ",
+    ". We are happy to answer any of your questions both in person in the tailorshop, and on Whats app. Follow us on ",
+    " for inspiration."
+  ],
+  "whatsapp_url": "https://wa.me/66933742851",
+  "facebook_url": "https://www.facebook.com/no1armanisuits",
+  "map_url": "https://www.google.com/maps/place/No.1+Armani+Suits%E2%80%8F%E2%80%AD/@7.8906396,98.2941182,17z/data=!3m1!4b1!4m6!3m5!1s0x30503b004b26a493:0x24dd532b771162ae!8m2!3d7.8906343!4d98.2966931!16s%2Fg%2F11xzg9t54w?entry=ttu",
+  "items": [
+    {
+      "label": "Address",
+      "content_md": "No.1 Armani Suits  \n206/1 Rat Uthit Song Roi Pi Rd, Patong,  \nKathu District, Phuket 83150  \nPhuket, Thailand"
+    },
+    {
+      "label": "Phone (and Whatsapp)",
+      "content_md": "[+66 93 374 2851](tel:+66933742851)"
+    },
+    {
+      "label": "Hours",
+      "content_md": "Monday - Sunday  \n[Please check Google Maps for current hours](https://www.google.com/maps/place/No.1+Armani+Suits%E2%80%8F%E2%80%AD/@7.8906396,98.2941182,17z/data=!3m1!4b1!4m6!3m5!1s0x30503b004b26a493:0x24dd532b771162ae!8m2!3d7.8906343!4d98.2966931!16s%2Fg%2F11xzg9t54w?entry=ttu)"
+    },
+    {
+      "label": "Parking",
+      "content_md": "Free parking is available!"
+    },
+    {
+      "label": "Facebook",
+      "content_md": "[No.1 Armani Suits on Facebook](https://www.facebook.com/no1armanisuits)"
+    }
+  ],
+  "image_src": "images/intro-image.webp",
+  "image_alt": "No.1 Armani Suits – bespoke tailoring in Phuket"
+}

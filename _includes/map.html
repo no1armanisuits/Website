@@ -1,0 +1,12 @@
+{% assign d = site.data[page.lang] %}
+{% assign m = d.map %}
+<section id="map" class="map-section">
+    <div class="section-inner">
+        <h2 class="section__headline" data-scroll-animate="fadeInUp">{{ m.title }}</h2>
+        <p class="section__subtitle" data-scroll-animate="fadeInUp">{{ m.subtitle }}</p>
+        <br/>
+    </div>
+    <a href="{{ m.map_url }}" target="_blank" rel="noopener" class="map-section__link" title="{{ m.map_link_title }}">
+        <img src="{{ site.baseurl }}/{{ m.map_image_src }}" alt="{{ m.map_image_alt }}" class="map-section__image" width="1200" height="400" loading="lazy">
+    </a>
+</section>

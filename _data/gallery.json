@@ -1,0 +1,22 @@
+{
+  "title": "Our work",
+  "subtitle": "A selection of our creations",
+  "link": "https://maps.app.goo.gl/QiZbAipketzEabZZ9",
+  "marquee_speed": "0.3",
+  "images": [
+    { "src": "/images/gallery/Finn-Hetland.webp", "alt": "Finn Hetland" },
+    { "src": "/images/gallery/Gareth-Davidson.webp", "alt": "Gareth Davidson" },
+    { "src": "/images/gallery/Jacob-Gavin.webp", "alt": "Jacob Gavin" },
+    { "src": "/images/gallery/Lachlan-Nicholls.webp", "alt": "Lachlan Nicholls" },
+    { "src": "/images/gallery/ain-azizah.webp", "alt": "Ain Azizah" },
+    { "src": "/images/gallery/christian-davis_1.webp", "alt": "Christian Davis 1" },
+    { "src": "/images/gallery/christian-davis_2.webp", "alt": "Christian Davis 2" },
+    { "src": "/images/gallery/gan-cw.webp", "alt": "Gan Cw" },
+    { "src": "/images/gallery/gan-cw_2.webp", "alt": "Gan Cw 2" },
+    { "src": "/images/gallery/jack-hanna.webp", "alt": "Jack Hanna" },
+    { "src": "/images/gallery/trevor-Levin.webp", "alt": "Trevor Levin" },
+    { "src": "/images/gallery/trevor-Levin_2.webp", "alt": "Trevor Levin 2" },
+    { "src": "/images/gallery/vered-meshulam.webp", "alt": "Vered Meshulam" },
+    { "src": "/images/gallery/yamo-ruzzi.webp", "alt": "Yamo Ruzzi" }
+  ]
+}

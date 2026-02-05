@@ -1,0 +1,15 @@
+{% assign d = site.data[page.lang] %}
+{% assign u = d["usp-faq"] %}
+<section id="usp-faq" class="usp" aria-label="Why choose us">
+    <div class="section-inner">
+        <div class="usp__grid">
+            {% for item in u.items %}
+            <div class="usp__item" data-scroll-animate="fadeInLeft">
+                <img src="{{ site.baseurl }}/{{ item.icon }}" alt="{{ item.icon_alt }}" class="usp__icon" width="69" height="69" loading="lazy">
+                <h3 class="usp__heading">{{ item.heading }}</h3>
+                <p class="usp__text">{{ item.text }}</p>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

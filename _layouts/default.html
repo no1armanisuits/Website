@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: 'en' }}">
+<head>
+    {% include head.html %}
+</head>
+<body>
+    <div class="container">
+        {% include nav.html %}
+        {% include header-hero.html %}
+        <main>
+            {% include intro.html %}
+            {% include usp.html %}
+            {% include gallery.html %}
+            {% include how-it-works.html %}
+            {% include reviews.html %}
+            {% include usp-faq.html %}
+            {% include faq.html %}
+            {% include contact.html %}
+            {% include map.html %}
+        </main>
+        {% include footer.html %}
+    </div>
+    <script src="{{ site.baseurl }}/scripts/main.js" defer></script>
+</body>
+</html>
