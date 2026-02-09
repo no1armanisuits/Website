@@ -2,21 +2,21 @@
   "items": [
     {
       "icon": "images/icons/scissor.svg",
-      "icon_alt": "Scissors icon",
-      "heading": "Master Craftsmanship",
-      "text": "Our tailors bring over 25 years of experience to every garment. Measured by hand, refined stitch by stitch—we ensure a perfect fit and finish for suits, dresses, and more. Every detail matters."
+      "icon_alt": "Saks-ikon",
+      "heading": "Mesterligt håndværk",
+      "text": "Vore skræddere bringer over 25 års erfaring til hvert tøjstykke. Målt for hånd, forfinet sting for sting – vi sikrer en perfekt pasform og finish til jakkesæt, kjoler og mere. Hver detalje betyder noget."
     },
     {
       "icon": "images/icons/premium.svg",
-      "icon_alt": "Premium quality icon",
-      "heading": "Premium Fabrics",
-      "text": "Choose from the finest fabrics—a wide selection suited to Phuket's climate. We source materials that combine comfort, durability, and style for handcrafted pieces designed for your body."
+      "icon_alt": "Premium kvalitetsikon",
+      "heading": "Premium stoffer",
+      "text": "Vælg mellem de fineste stoffer – et stort udvalg der passer til Phukets klima. Vi finder materialer der kombinerer komfort, holdbarhed og stil til håndlavede stykker designet til din krop."
     },
     {
       "icon": "images/icons/conversation.svg",
-      "icon_alt": "Conversation icon",
-      "heading": "Personal Service",
-      "text": "We work with you one-on-one from consultation to final fitting. Your suit, your fit—your style, occasion, and preferences guide every decision until you're completely satisfied."
+      "icon_alt": "Samtale-ikon",
+      "heading": "Personlig service",
+      "text": "Vi arbejder én-til-én med dig fra konsultation til endelig prøvning. Dit jakkesæt, din pasform – din stil, anledning og præferencer styre hver beslutning indtil du er fuldt tilfreds."
     }
   ]
 }

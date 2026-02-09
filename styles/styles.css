@@ -157,6 +157,32 @@ strong {
     color: rgba(255, 255, 255, 0.85);
 }
 
+.site-nav__lang {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-left: 1.25rem;
+    padding-left: 1.25rem;
+    border-left: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+.site-nav__lang-link {
+    display: inline-block;
+    font-size: 1.25rem;
+    line-height: 1;
+    text-decoration: none;
+    opacity: 0.75;
+    transition: opacity 0.2s ease;
+}
+
+.site-nav__lang-link:hover {
+    opacity: 1;
+}
+
+.site-nav__lang-link--active {
+    opacity: 1;
+}
+
 header {
     position: relative;
     width: 100%;
@@ -534,6 +560,20 @@ footer a:focus {
         display: block;
         padding: 0.5rem 0;
         font-size: 1rem;
+    }
+
+    .site-nav__lang {
+        margin-left: 0;
+        padding-left: 0;
+        border-left: none;
+        margin-top: 0.75rem;
+        padding-top: 0.75rem;
+        border-top: 1px solid rgba(255, 255, 255, 0.35);
+        gap: 0.75rem;
+    }
+
+    .site-nav__lang-link {
+        font-size: 1.5rem;
     }
     
     header {

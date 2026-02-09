@@ -1,5 +1,6 @@
 {% assign d = site.data[page.lang] %}
 {% assign nav = d.nav %}
+{% assign lang = page.lang | default: 'en' %}
 <div class="top-bar">
     <a href="#" class="site-brand">{{ nav.brand }}</a>
     <input type="checkbox" id="menu-toggle" class="menu-toggle__input" aria-label="Toggle menu">
@@ -14,5 +15,11 @@
             <li><a href="{{ link.href }}" class="site-nav__link">{{ link.label }}</a></li>
             {% endfor %}
         </ul>
+        <div class="site-nav__lang" aria-label="Language">
+            <a href="{{ site.baseurl }}/" class="site-nav__lang-link{% if lang == 'en' %} site-nav__lang-link--active{% endif %}" title="English" aria-current="{% if lang == 'en' %}page{% else %}false{% endif %}">🇬🇧</a>
+            <a href="{{ site.baseurl }}/da/" class="site-nav__lang-link{% if lang == 'da' %} site-nav__lang-link--active{% endif %}" title="Dansk" aria-current="{% if lang == 'da' %}page{% else %}false{% endif %}">🇩🇰</a>
+            <a href="{{ site.baseurl }}/sv/" class="site-nav__lang-link{% if lang == 'sv' %} site-nav__lang-link--active{% endif %}" title="Svenska" aria-current="{% if lang == 'sv' %}page{% else %}false{% endif %}">🇸🇪</a>
+            <a href="{{ site.baseurl }}/no/" class="site-nav__lang-link{% if lang == 'no' %} site-nav__lang-link--active{% endif %}" title="Norsk" aria-current="{% if lang == 'no' %}page{% else %}false{% endif %}">🇳🇴</a>
+        </div>
     </nav>
 </div>
