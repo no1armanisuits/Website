@@ -1,0 +1,10 @@
+{
+  "name": "armani-website",
+  "private": true,
+  "scripts": {
+    "resize-gallery": "node scripts/resize-gallery.js"
+  },
+  "devDependencies": {
+    "sharp": "^0.33.5"
+  }
+}

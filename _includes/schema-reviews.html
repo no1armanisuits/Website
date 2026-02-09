@@ -1,0 +1,24 @@
+{% assign r = site.data.reviews %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {% for item in r.items %}
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "{{ item.name | escape }}"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": {{ item.rating }},
+        "bestRating": 5
+      },
+      "reviewBody": {{ item.text | replace: '<br/>', ' ' | replace: '<br>', ' ' | strip_newlines | jsonify }},
+      "datePublished": "{{ item.date }}"
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+}
+</script>

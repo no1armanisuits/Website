@@ -1,0 +1,28 @@
+{% assign d = site.data[page.lang] %}
+{% assign nav = d.nav %}
+{% assign lang = page.lang | default: 'en' %}
+<div class="lang-bar" aria-label="Language">
+    <span class="lang-bar__icon" aria-hidden="true">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" width="20" height="20"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+    </span>
+    <a href="{{ site.baseurl }}/" class="lang-bar__link{% if lang == 'en' %} lang-bar__link--active{% endif %}" aria-current="{% if lang == 'en' %}page{% else %}false{% endif %}">English</a>
+    <a href="{{ site.baseurl }}/da/" class="lang-bar__link{% if lang == 'da' %} lang-bar__link--active{% endif %}" aria-current="{% if lang == 'da' %}page{% else %}false{% endif %}">Dansk</a>
+    <a href="{{ site.baseurl }}/sv/" class="lang-bar__link{% if lang == 'sv' %} lang-bar__link--active{% endif %}" aria-current="{% if lang == 'sv' %}page{% else %}false{% endif %}">Svenska</a>
+    <a href="{{ site.baseurl }}/nb/" class="lang-bar__link{% if lang == 'nb' %} lang-bar__link--active{% endif %}" aria-current="{% if lang == 'nb' %}page{% else %}false{% endif %}">Norsk</a>
+</div>
+<div class="top-bar">
+    <a href="#" class="site-brand">{{ nav.brand }}</a>
+    <input type="checkbox" id="menu-toggle" class="menu-toggle__input" aria-label="Toggle menu">
+    <label for="menu-toggle" class="menu-toggle" aria-label="Toggle menu">
+        <span class="menu-toggle__line"></span>
+        <span class="menu-toggle__line"></span>
+        <span class="menu-toggle__line"></span>
+    </label>
+    <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul class="site-nav__list">
+            {% for link in nav.links %}
+            <li><a href="{{ link.href }}" class="site-nav__link">{{ link.label }}</a></li>
+            {% endfor %}
+        </ul>
+    </nav>
+</div>

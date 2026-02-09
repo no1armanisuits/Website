@@ -1,0 +1,16 @@
+{% assign d = site.data[page.lang] %}
+{% assign faq = d.faq %}
+<section id="faq" class="faq" aria-labelledby="faq-heading">
+    <div class="section-inner">
+        <h2 id="faq-heading" class="faq__title section__headline" data-scroll-animate="fadeInUp">Frequently Asked Questions</h2>
+        <p class="faq__subtitle section__subtitle" data-scroll-animate="fadeInUp">Common questions about our bespoke tailoring in Phuket</p>
+        <div class="faq__list">
+            {% for item in faq %}
+            <details class="faq__item" id="faq-q{{ item.id }}" data-scroll-animate="fadeInUp">
+                <summary class="faq__question">{{ item.question }}</summary>
+                <div class="faq__answer">{{ item.answer }}</div>
+            </details>
+            {% endfor %}
+        </div>
+    </div>
+</section>

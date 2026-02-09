@@ -1,0 +1,36 @@
+{
+  "headline": "Finn oss",
+  "paragraphs": [
+    "Den enkleste måten å starte reisen din til det perfekte skreddersydde stykket er ganske enkelt å gå inn i skredderbutikken vår i hjertet av Patong.",
+    "Hvis du vil bestille på forhånd, vennligst ta kontakt med oss på ",
+    ". Vi svarer gjerne på alle spørsmål både personlig i butikken og på WhatsApp. Følg oss på ",
+    " for inspirasjon."
+  ],
+  "whatsapp_url": "https://wa.me/66933742851",
+  "facebook_url": "https://www.facebook.com/no1armanisuits",
+  "map_url": "https://www.google.com/maps/place/No.1+Armani+Suits%E2%80%8F%E2%80%AD/@7.8906396,98.2941182,17z/data=!3m1!4b1!4m6!3m5!1s0x30503b004b26a493:0x24dd532b771162ae!8m2!3d7.8906343!4d98.2966931!16s%2Fg%2F11xzg9t54w?entry=ttu",
+  "items": [
+    {
+      "label": "Adresse",
+      "content_md": "No.1 Armani Suits  \n206/1 Rat Uthit Song Roi Pi Rd, Patong,  \nKathu District, Phuket 83150  \nPhuket, Thailand"
+    },
+    {
+      "label": "Telefon (og WhatsApp)",
+      "content_md": "[+66 93 374 2851](tel:+66933742851)"
+    },
+    {
+      "label": "Åpningstider",
+      "content_md": "Mandag - søndag  \n[Sjekk Google Maps for gjeldende åpningstider](https://www.google.com/maps/place/No.1+Armani+Suits%E2%80%8F%E2%80%AD/@7.8906396,98.2941182,17z/data=!3m1!4b1!4m6!3m5!1s0x30503b004b26a493:0x24dd532b771162ae!8m2!3d7.8906343!4d98.2966931!16s%2Fg%2F11xzg9t54w?entry=ttu)"
+    },
+    {
+      "label": "Parkering",
+      "content_md": "Gratis parkering er tilgjengelig!"
+    },
+    {
+      "label": "Facebook",
+      "content_md": "[No.1 Armani Suits på Facebook](https://www.facebook.com/no1armanisuits)"
+    }
+  ],
+  "image_src": "images/intro-image.webp",
+  "image_alt": "No.1 Armani Suits – skreddersøm i Phuket"
+}

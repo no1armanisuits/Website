@@ -1,0 +1,54 @@
+/* USP section */
+.usp {
+    background: #FAF8F3;
+}
+
+.usp__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 15px;
+}
+
+.usp__item {
+    border-radius: 8px;
+    background: #FFFFFF;
+    padding: 35px;
+    color: #7E6B59;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.usp__item:hover {
+    border-color: #7E6B59;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.usp__icon {
+    display: block;
+    height: 69px;
+    width: auto;
+    margin:0 auto 0.8rem;
+    
+}
+
+.usp__heading {
+    color: #7E6B59;
+    margin-bottom: 0.8rem;
+    font-size: 1.5em;
+    font-weight: 400;
+    font-family: 'Tiro Bangla', 'Times New Roman', serif;
+    text-transform: none;
+}
+
+.usp__text {
+    color: #7E6B59;
+    font-size: 1em;
+    line-height: 1.7;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .usp__grid {
+        grid-template-columns: 1fr;
+    }
+}

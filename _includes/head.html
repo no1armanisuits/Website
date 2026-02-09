@@ -1,0 +1,44 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ page.title | default: site.title }}</title>
+<meta name="description" content="{{ page.description | default: site.description }}">
+{% assign canonical_url = site.url | append: site.baseurl | append: page.url %}
+<link rel="canonical" href="{{ canonical_url }}">
+{% include hreflang.html %}
+{% if site.og_image %}
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:title" content="{{ page.title | default: site.title }}">
+<meta property="og:description" content="{{ page.description | default: site.description }}">
+<meta property="og:url" content="{{ canonical_url }}">
+<meta property="og:image" content="{{ site.url }}{{ site.baseurl }}{{ site.og_image }}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ page.title | default: site.title }}">
+<meta name="twitter:description" content="{{ page.description | default: site.description }}">
+<meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}{{ site.og_image }}">
+{% endif %}
+<link rel="icon" href="{{ site.baseurl }}/favicon.ico" type="image/x-icon">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Tiro+Bangla:ital@0;1&display=swap" as="style">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Tiro+Bangla:ital@0;1&display=swap" rel="stylesheet">
+<link rel="preload" href="{{ site.baseurl }}/styles/styles.css" as="style">
+<link rel="preload" href="{{ site.baseurl }}/styles/marquee.css" as="style">
+<link rel="preload" href="{{ site.baseurl }}/styles/reviews.css" as="style">
+<link rel="preload" href="{{ site.baseurl }}/styles/gallery.css" as="style">
+<link rel="preload" href="{{ site.baseurl }}/styles/timeline.css" as="style">
+<link rel="preload" href="{{ site.baseurl }}/styles/usp.css" as="style">
+<link rel="preload" href="{{ site.baseurl }}/styles/faq.css" as="style">
+<link rel="preload" href="{{ site.baseurl }}/scripts/main.js" as="script">
+<link rel="stylesheet" href="{{ site.baseurl }}/styles/styles.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/styles/marquee.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/styles/reviews.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/styles/gallery.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/styles/timeline.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/styles/usp.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/styles/faq.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+{% include schema-reviews.html %}
+{% include schema-faq.html %}

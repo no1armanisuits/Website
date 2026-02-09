@@ -1,0 +1,39 @@
+{
+  "title": "Din resa till perfektion",
+  "subtitle": "Förfinat stygn för stygn – från första konsultation till slutlig passform, varje steg skapas med omsorg",
+  "steps": [
+    {
+      "icon": "images/icons/conversation.svg",
+      "icon_alt": "Konsultation",
+      "heading": "Konsultation",
+      "text": "Möt din mästerskräddare för att diskutera din stil, preferenser och tillfälle."
+    },
+    {
+      "icon": "images/icons/fabric-selection.svg",
+      "icon_alt": "Tygeval",
+      "heading": "Tygeval",
+      "text": "Välj bland vår exklusiva kollektion av de finaste tyger för ditt handgjorda plagg."
+    },
+    {
+      "icon": "images/icons/measurements.svg",
+      "icon_alt": "Mätningar",
+      "heading": "Mätningar",
+      "text": "Mätt för hand för en felfri passform – varje detalj räknas för en kostym designad för din kropp."
+    },
+    {
+      "icon": "images/icons/fitting.svg",
+      "icon_alt": "Provning",
+      "heading": "Provning",
+      "text": "Prova din kostym – din passform – och vi gör eventuella justeringar så varje detalj är som den ska."
+    },
+    {
+      "icon": "images/icons/delivery.svg",
+      "icon_alt": "Leverans",
+      "heading": "Slutlig leverans",
+      "text": "Ta emot ditt mästerverk, perfekt skapat och redo att göra intryck. Vi skickar worldwide."
+    }
+  ],
+  "cta_text": "Redo att hitta din passform?",
+  "cta_label": "Kontakta oss",
+  "cta_href": "#contact"
+}

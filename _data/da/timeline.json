@@ -1,0 +1,39 @@
+{
+  "title": "Din rejse til perfektion",
+  "subtitle": "Forfinet sting for sting – fra første konsultation til endelig pasform, hvert trin er skabt med omtanke",
+  "steps": [
+    {
+      "icon": "images/icons/conversation.svg",
+      "icon_alt": "Konsultation",
+      "heading": "Konsultation",
+      "text": "Mød din mesterskrædder for at drøfte din stil, præferencer og anledning."
+    },
+    {
+      "icon": "images/icons/fabric-selection.svg",
+      "icon_alt": "Stofvalg",
+      "heading": "Stofvalg",
+      "text": "Vælg mellem vores eksklusive kollektion af de fineste stoffer til dit håndlavede stykke."
+    },
+    {
+      "icon": "images/icons/measurements.svg",
+      "icon_alt": "Målinger",
+      "heading": "Målinger",
+      "text": "Målt for hånd for en fejlfri pasform – hver detalje betyder noget for et jakkesæt designet til din krop."
+    },
+    {
+      "icon": "images/icons/fitting.svg",
+      "icon_alt": "Prøvning",
+      "heading": "Prøvning",
+      "text": "Prøv dit jakkesæt – din pasform – og vi laver eventuelle justeringer så hver detalje er som den skal være."
+    },
+    {
+      "icon": "images/icons/delivery.svg",
+      "icon_alt": "Levering",
+      "heading": "Endelig levering",
+      "text": "Modtag dit mesterværk, perfekt skabt og klar til at gøre indtryk. Vi sender worldwide."
+    }
+  ],
+  "cta_text": "Klar til at finde din pasform?",
+  "cta_label": "Kontakt os",
+  "cta_href": "#contact"
+}

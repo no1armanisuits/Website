@@ -1,0 +1,26 @@
+{% assign d = site.data[page.lang] %}
+{% assign c = d.contact %}
+<section id="contact" class="text-section">
+    <div class="section-inner">
+        <div class="text-section__content" data-scroll-animate="fadeInUp">
+            <div class="text-section__text">
+                <h2 class="text-section__headline">{{ c.headline }}</h2>
+                <p>{{ c.paragraphs[0] }}</p>
+                <p>{{ c.paragraphs[1] }}<a href="{{ c.whatsapp_url }}" target="_blank" rel="noopener">Whatsapp</a>{{ c.paragraphs[2] }}<a href="{{ c.facebook_url }}" target="_blank" rel="noopener">Facebook</a>{{ c.paragraphs[3] }}</p>
+                <ul class="contact-list">
+                    {% for item in c.items %}
+                    <li class="contact-item">
+                        <div class="contact-item__content">
+                            <h3>{{ item.label }}</h3>
+                            {{ item.content_md | markdownify }}
+                        </div>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="text-section__image-wrap">
+                <img src="{{ site.baseurl }}/{{ c.image_src }}" alt="{{ c.image_alt }}" class="text-section__image" width="615" height="405" loading="lazy">
+            </div>
+        </div>
+    </div>
+</section>

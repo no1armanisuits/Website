@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "icon": "images/icons/walkins.svg",
+      "icon_alt": "Öppettider",
+      "heading": "Drop-in är välkomna",
+      "text": "Ingen bokning behövs – kom förbi när det passar dig. Vi hjälper gärna till att hitta rätt passform och stil, oavsett om du har en tydlig idé eller bara vill titta och prata."
+    },
+    {
+      "icon": "images/icons/parking.svg",
+      "icon_alt": "Parkering",
+      "heading": "Gratis parkering",
+      "text": "Gratis parkering finns, så du kan besöka oss utan att oroa dig för var du ska lämna bilen. Kom förbi när det passar dig."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "title": "Din reise til perfeksjon",
+  "subtitle": "Finpusset sting for sting – fra første konsultasjon til endelig passform, hvert steg er skapt med omtanke",
+  "steps": [
+    {
+      "icon": "images/icons/conversation.svg",
+      "icon_alt": "Konsultasjon",
+      "heading": "Konsultasjon",
+      "text": "Møt skredderen din for å diskutere din stil, preferanser og anledning."
+    },
+    {
+      "icon": "images/icons/fabric-selection.svg",
+      "icon_alt": "Stoffvalg",
+      "heading": "Stoffvalg",
+      "text": "Velg blant vårt eksklusive utvalg av de fineste stoffene til ditt håndlagde stykke."
+    },
+    {
+      "icon": "images/icons/measurements.svg",
+      "icon_alt": "Målinger",
+      "heading": "Målinger",
+      "text": "Målt for hånd for en feilfri passform – hver detalj teller for en dress designet for kroppen din."
+    },
+    {
+      "icon": "images/icons/fitting.svg",
+      "icon_alt": "Prøving",
+      "heading": "Prøving",
+      "text": "Prøv dressen din – din passform – og vi justerer slik at hver detalj er som den skal være."
+    },
+    {
+      "icon": "images/icons/delivery.svg",
+      "icon_alt": "Levering",
+      "heading": "Endelig levering",
+      "text": "Motta mesterverket ditt, perfekt skapt og klart til å gjøre inntrykk. Vi sender worldwide."
+    }
+  ],
+  "cta_text": "Klar for å finne passformen din?",
+  "cta_label": "Kontakt oss",
+  "cta_href": "#contact"
+}

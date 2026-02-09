@@ -1,0 +1,17 @@
+{% assign d = site.data[page.lang] %}
+{% assign intro = d.intro %}
+<section id="intro" class="text-section">
+    <div class="section-inner">
+        <div class="text-section__content">
+            <div class="text-section__text" data-scroll-animate="fadeInUp">
+                <h2 class="text-section__headline">{{ intro.headline }}</h2>
+                {% for p in intro.paragraphs %}
+                <p>{{ p }}</p>
+                {% endfor %}
+            </div>
+            <div class="text-section__image-wrap" data-scroll-animate="fadeInRight">
+                <img src="{{ site.baseurl }}/{{ intro.image_src }}" alt="{{ intro.image_alt }}" class="text-section__image" width="615" height="405" loading="lazy">
+            </div>
+        </div>
+    </div>
+</section>

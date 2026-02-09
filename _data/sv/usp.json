@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "icon": "images/icons/scissor.svg",
+      "icon_alt": "Sax-ikon",
+      "heading": "Mästerligt hantverk",
+      "text": "Våra skräddare har över 25 års erfarenhet i varje plagg. Mätt för hand, förfinat stygn för stygn – vi säkerställer perfekt passform och finish för kostymer, klänningar och mer. Varje detalj räknas."
+    },
+    {
+      "icon": "images/icons/premium.svg",
+      "icon_alt": "Premium kvalitetsikon",
+      "heading": "Premium tyger",
+      "text": "Välj bland de finaste tyger – ett stort utbud anpassat till Phukets klimat. Vi söker material som kombinerar komfort, hållbarhet och stil för handgjorda plagg designade för din kropp."
+    },
+    {
+      "icon": "images/icons/conversation.svg",
+      "icon_alt": "Samtal-ikon",
+      "heading": "Personlig service",
+      "text": "Vi arbetar en-mot-en med dig från konsultation till slutlig provning. Din kostym, din passform – din stil, tillfälle och preferenser styr varje beslut tills du är helt nöjd."
+    }
+  ]
+}
