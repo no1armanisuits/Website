@@ -1,3 +1,4 @@
+{% include cache_bust.html %}
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{{ page.title | default: site.title }}</title>
@@ -24,21 +25,21 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Tiro+Bangla:ital@0;1&display=swap" as="style">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Tiro+Bangla:ital@0;1&display=swap" rel="stylesheet">
-<link rel="preload" href="{{ site.baseurl }}/styles/styles.css" as="style">
-<link rel="preload" href="{{ site.baseurl }}/styles/marquee.css" as="style">
-<link rel="preload" href="{{ site.baseurl }}/styles/reviews.css" as="style">
-<link rel="preload" href="{{ site.baseurl }}/styles/gallery.css" as="style">
-<link rel="preload" href="{{ site.baseurl }}/styles/timeline.css" as="style">
-<link rel="preload" href="{{ site.baseurl }}/styles/usp.css" as="style">
-<link rel="preload" href="{{ site.baseurl }}/styles/faq.css" as="style">
-<link rel="preload" href="{{ site.baseurl }}/scripts/main.js" as="script">
-<link rel="stylesheet" href="{{ site.baseurl }}/styles/styles.css">
-<link rel="stylesheet" href="{{ site.baseurl }}/styles/marquee.css">
-<link rel="stylesheet" href="{{ site.baseurl }}/styles/reviews.css">
-<link rel="stylesheet" href="{{ site.baseurl }}/styles/gallery.css">
-<link rel="stylesheet" href="{{ site.baseurl }}/styles/timeline.css">
-<link rel="stylesheet" href="{{ site.baseurl }}/styles/usp.css">
-<link rel="stylesheet" href="{{ site.baseurl }}/styles/faq.css">
-<link rel="stylesheet" href="{{ site.baseurl }}/styles/animate.min.css">
+<link rel="preload" href="{{ site.baseurl }}/styles/styles.css?v={{ cache_bust }}" as="style">
+<link rel="preload" href="{{ site.baseurl }}/styles/marquee.css?v={{ cache_bust }}" as="style">
+<link rel="preload" href="{{ site.baseurl }}/styles/reviews.css?v={{ cache_bust }}" as="style">
+<link rel="preload" href="{{ site.baseurl }}/styles/gallery.css?v={{ cache_bust }}" as="style">
+<link rel="preload" href="{{ site.baseurl }}/styles/timeline.css?v={{ cache_bust }}" as="style">
+<link rel="preload" href="{{ site.baseurl }}/styles/usp.css?v={{ cache_bust }}" as="style">
+<link rel="preload" href="{{ site.baseurl }}/styles/faq.css?v={{ cache_bust }}" as="style">
+<link rel="preload" href="{{ site.baseurl }}/scripts/main.js?v={{ cache_bust }}" as="script">
+<link rel="stylesheet" href="{{ site.baseurl }}/styles/styles.css?v={{ cache_bust }}">
+<link rel="stylesheet" href="{{ site.baseurl }}/styles/marquee.css?v={{ cache_bust }}">
+<link rel="stylesheet" href="{{ site.baseurl }}/styles/reviews.css?v={{ cache_bust }}">
+<link rel="stylesheet" href="{{ site.baseurl }}/styles/gallery.css?v={{ cache_bust }}">
+<link rel="stylesheet" href="{{ site.baseurl }}/styles/timeline.css?v={{ cache_bust }}">
+<link rel="stylesheet" href="{{ site.baseurl }}/styles/usp.css?v={{ cache_bust }}">
+<link rel="stylesheet" href="{{ site.baseurl }}/styles/faq.css?v={{ cache_bust }}">
+<link rel="stylesheet" href="{{ site.baseurl }}/styles/animate.min.css?v={{ cache_bust }}">
 {% include schema-reviews.html %}
 {% include schema-faq.html %}
