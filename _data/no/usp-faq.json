@@ -2,15 +2,15 @@
   "items": [
     {
       "icon": "images/icons/walkins.svg",
-      "icon_alt": "Open hours",
-      "heading": "Walk-ins welcome",
-      "text": "No appointment needed - drop by whenever it suits you. We are happy to help you find the right fit and style, whether you have a clear idea or just want to browse and chat."
+      "icon_alt": "Åpningstider",
+      "heading": "Drop-in er velkomne",
+      "text": "Ingen avtale nødvendig – kom inn når det passer deg. Vi hjelper gjerne med å finne riktig passform og stil, enten du har en klar idé eller bare vil kikke og prate."
     },
     {
       "icon": "images/icons/parking.svg",
-      "icon_alt": "Parking",
-      "heading": "Free parking",
-      "text": "Free parking is available, so you can visit us without worrying about where to leave your car. Stop by at your convenience."
+      "icon_alt": "Parkering",
+      "heading": "Gratis parkering",
+      "text": "Gratis parkering er tilgjengelig, så du kan besøke oss uten å bekymre deg for hvor du skal legge bilen. Kom inn når det passer deg."
     }
   ]
 }

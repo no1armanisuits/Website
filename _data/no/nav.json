@@ -1,11 +1,11 @@
 {
   "brand": "No.1 Armani Suits",
   "links": [
-    { "href": "#usp", "label": "Why us" },
-    { "href": "#gallery", "label": "Gallery" },
-    { "href": "#how-it-works", "label": "How it works" },
-    { "href": "#reviews", "label": "Reviews" },
+    { "href": "#usp", "label": "Hvorfor oss" },
+    { "href": "#gallery", "label": "Galleri" },
+    { "href": "#how-it-works", "label": "Slik fungerer det" },
+    { "href": "#reviews", "label": "Anmeldelser" },
     { "href": "#faq", "label": "FAQ" },
-    { "href": "#contact", "label": "Contact" }
+    { "href": "#contact", "label": "Kontakt" }
   ]
 }
