@@ -2,61 +2,64 @@
   {
     "id": "1",
     "question": "Why should I choose No.1 Armani Suits instead of other tailors in Phuket?",
-    "answer": "We have over 25 years of experience creating made‑to‑measure clothing for visitors and clients worldwide. Every garment is cut and stitched individually to your measurements, using high‑quality fabrics and time‑tested techniques for durability and comfort. We never rush the important steps: careful consultation, detailed measuring, and proper fittings. Our goal is simple – that you leave Phuket with clothing you are genuinely proud to wear for many years, not just a quick \"holiday suit.\""
-  },
+    "answer": ["With over 25 years of experience, we create made-to-measure garments for visitors and clients from around the world. Every piece is individually cut and stitched to your measurements, using high-quality fabrics and time-tested tailoring techniques that ensure comfort, durability, and a refined fit. We never rush the important steps — careful consultation, precise measuring, and proper fittings are always part of the process.",
+
+"Just as important to us is the experience. We take pride in welcoming our clients with a friendly attitude, a positive atmosphere, and a relaxed, unhurried approach. We speak several languages and place great emphasis on making you feel comfortable, listened to, and confident throughout the entire process — whether it’s your first bespoke garment or you’re already familiar with tailoring.",
+"Our goal is simple: that you leave Phuket with clothing you genuinely enjoy wearing and feel proud of for many years to come - not just a quick “holiday suit.”"]
+    },
   {
     "id": "2",
     "question": "How long does it take to make a custom suit or shirt while I'm on holiday?",
-    "answer": "For most visitors, a custom suit takes around 2–4 days, including at least one fitting. Custom shirts can often be completed in 24–48 hours, depending on the number of pieces and our schedule. If you let us know your travel dates in advance, we can plan the fitting times around your excursions so you still enjoy your holiday while your garments are being made."
-  },
+    "answer": ["For most visitors, a custom suit takes around 2–4 days, including at least one fitting. Custom shirts can often be completed in 24–48 hours, depending on the number of pieces and our schedule. If you let us know your travel dates in advance, we can plan the fitting times around your excursions so you still enjoy your holiday while your garments are being made."]
+    },
   {
     "id": "3",
     "question": "I'm only in Phuket for a few days – is there enough time for fittings and alterations?",
-    "answer": "In many cases, yes. If you have 2–3 full days in Phuket, we can usually complete a suit with one or two fittings. For very short stays, we can prioritize shirts or simpler items, or finish final adjustments and ship the garments to your home address. The earlier in your trip you visit us, the more time we have to perfect the fit."
-  },
+    "answer": ["In many cases, yes. If you have 2–3 full days in Phuket, we can usually complete a suit with one or two fittings. For very short stays, we can prioritize shirts or simpler items, or finish final adjustments and ship the garments to your home address. The earlier in your trip you visit us, the more time we have to perfect the fit."]
+    },
   {
     "id": "4",
     "question": "What is the process from first visit to picking up my finished garments?",
-    "answer": "Your first visit starts with a consultation: we discuss what you need, your style preferences, and when you are leaving Phuket. Then we take detailed measurements and help you choose fabrics, linings, buttons, and design details. After we cut and begin constructing your garments, you return for a fitting to fine‑tune the shape and comfort. We then complete the final stitching and pressing, and you try everything on once more before taking it home or having it shipped."
-  },
+    "answer": ["Your first visit starts with a consultation: we discuss what you need, your style preferences, and when you are leaving Phuket. Then we take detailed measurements and help you choose fabrics, linings, buttons, and design details. After we cut and begin constructing your garments, you return for a fitting to fine‑tune the shape and comfort. We then complete the final stitching and pressing, and you try everything on once more before taking it home or having it shipped."]
+    },
   {
     "id": "5",
     "question": "What fabrics and styles do you offer for men's and women's bespoke clothing?",
-    "answer": "We work with a wide selection of wools, wool‑blends, bamboo, linens, cottons, and performance fabrics suitable for different climates and occasions. For men we tailor business suits, tuxedos, blazers, trousers, shirts, and casual wear. For ladies we create suits, dresses, skirts, blouses, and evening wear. Whether you prefer classic, timeless cuts or more modern, slim silhouettes, we can recommend fabrics and styles that fit your body, your wardrobe, and your budget."
-  },
+    "answer": ["We work with a wide selection of wools, wool‑blends, bamboo, linens, cottons, and performance fabrics suitable for different climates and occasions. For men we tailor business suits, tuxedos, blazers, trousers, shirts, and casual wear. For ladies we create suits, dresses, skirts, blouses, and evening wear. Whether you prefer classic, timeless cuts or more modern, slim silhouettes, we can recommend fabrics and styles that fit your body, your wardrobe, and your budget."]
+    },
   {
     "id": "6",
     "question": "How do you ensure a perfect fit and long‑term comfort?",
-    "answer": "Fit begins with accurate measurements and an honest conversation about how you like your clothes to feel – closer to the body, more relaxed, or somewhere in between. We draft patterns to your specific body shape and use intermediate fittings to adjust shoulder slope, chest, waist, seat, and sleeve and trouser lengths. Small details like armhole depth and jacket balance make a big difference when you wear the suit all day, so we pay special attention to these areas to give you both a clean look and real comfort."
-  },
+    "answer": ["Fit begins with accurate measurements and an honest conversation about how you like your clothes to feel – closer to the body, more relaxed, or somewhere in between. We draft patterns to your specific body shape and use intermediate fittings to adjust shoulder slope, chest, waist, seat, and sleeve and trouser lengths. Small details like armhole depth and jacket balance make a big difference when you wear the suit all day, so we pay special attention to these areas to give you both a clean look and real comfort."]
+    },
   {
     "id": "7",
     "question": "Can you copy a favorite suit or shirt I already own, or work from photos?",
-    "answer": "Absolutely. Many clients bring a favorite suit or shirt that fits well or has details they love. We can take measurements from that garment and recreate the style in new fabrics, often with small improvements to the fit. If you don't have the item with you, we can also work from clear photos or inspiration images and then adapt the design to your body and your travel schedule."
-  },
+    "answer": ["Absolutely. Many clients bring a favorite suit or shirt that fits well or has details they love. We can take measurements from that garment and recreate the style in new fabrics, often with small improvements to the fit. If you don't have the item with you, we can also work from clear photos or inspiration images and then adapt the design to your body and your travel schedule."]
+    },
   {
     "id": "8",
     "question": "What are your prices, and what affects the cost of a custom suit or shirt?",
-    "answer": "Pricing depends mainly on the fabric you choose, the complexity of the design, and the number of garments you order. We offer a range of fabric options to suit different budgets, from quality everyday cloths to premium wools and luxury blends. During your first visit we'll be transparent about all costs and can suggest combinations and packages that give you the best value without compromising on fit or quality."
-  },
+    "answer": ["Pricing depends mainly on the fabric you choose, the complexity of the design, and the number of garments you order. We offer a range of fabric options to suit different budgets, from quality everyday cloths to premium wools and luxury blends. During your first visit we'll be transparent about all costs and can suggest combinations and packages that give you the best value without compromising on fit or quality."]
+    },
   {
     "id": "9",
     "question": "Do you offer worldwide shipping or after‑sales alterations once I return home?",
-    "answer": "Yes. If your travel schedule is tight or you prefer not to carry everything with you, we can carefully pack and ship your finished garments to your home address. Because we keep your measurements and patterns on file, we can also advise you remotely if you ever need minor adjustments and in many cases guide your local tailor. Our aim is for you to feel supported even after you leave Phuket."
-  },
+    "answer": ["Yes. If your travel schedule is tight or you prefer not to carry everything with you, we can carefully pack and ship your finished garments to your home address. Because we keep your measurements and patterns on file, we can also advise you remotely if you ever need minor adjustments and in many cases guide your local tailor. Our aim is for you to feel supported even after you leave Phuket."]
+    },
   {
     "id": "10",
     "question": "Can I order additional suits or shirts from overseas after my first visit?",
-    "answer": "Once we have created your first garments, your measurements, patterns, and style preferences are stored securely. This means you can email or message us from home to order additional suits, trousers, or shirts without needing to be re‑measured in person. You can choose new fabrics and details remotely, and we will ship the finished items to you worldwide."
-  },
+    "answer": ["Once we have created your first garments, your measurements, patterns, and style preferences are stored securely. This means you can email or message us from home to order additional suits, trousers, or shirts without needing to be re‑measured in person. You can choose new fabrics and details remotely, and we will ship the finished items to you worldwide."]
+    },
   {
     "id": "11",
     "question": "What makes a bespoke suit from No.1 Armani Suits different from off‑the‑rack or \"quick tailor\" options?",
-    "answer": "Off‑the‑rack garments are made to standard sizes, and many \"quick\" tailoring services focus on speed rather than long‑term quality. Our bespoke approach starts with your body and your lifestyle: we build the pattern around you, use better construction inside the jacket and trousers, and take time for fittings so the suit looks sharp from every angle. The result is clothing that feels like it belongs to you alone, with superior comfort, cleaner lines, and a lifespan that justifies the investment."
-  },
+    "answer": ["Off‑the‑rack garments are made to standard sizes, and many \"quick\" tailoring services focus on speed rather than long‑term quality. Our bespoke approach starts with your body and your lifestyle: we build the pattern around you, use better construction inside the jacket and trousers, and take time for fittings so the suit looks sharp from every angle. The result is clothing that feels like it belongs to you alone, with superior comfort, cleaner lines, and a lifespan that justifies the investment."]
+    },
   {
     "id": "12",
     "question": "Do I need an appointment, and how can I schedule a fitting while I'm in Phuket?",
-    "answer": "Walk‑ins are more than welcome – feel free to drop by whenever it's convenient for you. If you prefer to make an appointment to ensure we can give you our full attention, especially during busy seasons, please call us or contact us through WhatsApp with your travel dates. We'll suggest suitable times for your first consultation and fittings. If you already know you want a suit or shirts made, reaching out before you arrive in Phuket helps us plan the work so everything is ready before you fly home."
+    "answer": ["Walk‑ins are more than welcome – feel free to drop by whenever it's convenient for you. If you prefer to make an appointment to ensure we can give you our full attention, especially during busy seasons, please call us or contact us through WhatsApp with your travel dates. We'll suggest suitable times for your first consultation and fittings. If you already know you want a suit or shirts made, reaching out before you arrive in Phuket helps us plan the work so everything is ready before you fly home."]
   }
 ]

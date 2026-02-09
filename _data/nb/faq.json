@@ -2,61 +2,65 @@
   {
     "id": "1",
     "question": "Hvorfor bør jeg velge No.1 Armani Suits fremfor andre skreddere i Phuket?",
-    "answer": "Vi har over 25 års erfaring med å lage målskreddersydde plagg til gjester og kunder verden over. Hvert plagg skjæres og sys individuelt til målene dine med stoffer av høy kvalitet og tidstestede teknikker for holdbarhet og komfort. Vi skynder oss aldri de viktige stegene: grundig konsultasjon, detaljerte målinger og ordentlige prøvinger. Målet vårt er enkelt – at du reiser fra Phuket med klær du er ærlig stolt av å bruke i mange år, ikke bare en rask \"feriedress\"."
+    "answer": [
+      "Vi har over 25 års erfaring med å skape skreddersydde plagg etter mål for besøkende og kunder fra hele verden. Hvert plagg blir skåret og sydd individuelt etter dine mål, med kvalitetsstoffer og velprøvde skredderteknikker som gir både holdbarhet og komfort. Vi forhaster aldri de viktige stegene – grundig konsultasjon, nøyaktige måltakinger og ordentlige prøvinger er en naturlig del av prosessen.",
+      "Opplevelsen er minst like viktig for oss. Vi møter alltid kundene våre med et vennlig og imøtekommende vesen, godt humør og et rolig tempo. Vi snakker flere språk og legger stor vekt på at du skal føle deg komfortabel, lyttet til og trygg gjennom hele prosessen – enten det er ditt første skreddersydde plagg eller du er en erfaren kunde.",
+"Målet vårt er enkelt: at du forlater Phuket med klær du virkelig trives i og er stolt av å bære i mange år fremover – ikke bare en rask “feriedress”."
+    ]
   },
   {
     "id": "2",
-    "question": "Hvor lang tid tar det å lage en skreddersydd dress eller skjorte mens jeg er på ferie?",
-    "answer": "For de fleste gjester tar en skreddersydd dress omtrent 2–4 dager, inkludert minst én prøving. Skreddersydde skjorter kan ofte være klare på 24–48 timer avhengig av antall stykker og timeplanen vår. Hvis du gir oss reisedatoene dine på forhånd, kan vi planlegge prøvingstidene rundt utfluktene dine slik at du fortsatt nyter ferien mens plagget blir laget."
+    "question": "Hvor lang tid tar det å få sydd en skreddersydd dress eller skjorte mens jeg er på ferie?",
+    "answer": ["For de fleste besøkende tar en skreddersydd dress omtrent 2–4 dager, inkludert minst én prøving. Skreddersydde skjorter kan ofte være klare innen 24–48 timer, avhengig av antall plagg og vår arbeidsplan. Gir du oss beskjed om reisedatoene dine på forhånd, kan vi planlegge prøvingene rundt utfluktene dine, slik at du kan nyte ferien mens klærne dine blir sydd."]
   },
   {
     "id": "3",
-    "question": "Jeg er bare i Phuket noen få dager – er det nok tid til prøvinger og endringer?",
-    "answer": "I mange tilfeller ja. Hvis du har 2–3 fulle dager i Phuket, kan vi vanligvis fullføre en dress med én eller to prøvinger. Ved veldig korte opphold kan vi prioritere skjorter eller enklere ting, eller fullføre de siste justeringene og sende plagget til hjemmeadressen din. Jo tidligere på reisen du besøker oss, desto mer tid har vi til å perfeksjonere passformen."
+    "question": "Jeg er bare i Phuket i noen få dager – er det nok tid til prøvinger og justeringer?",
+    "answer": ["I mange tilfeller, ja. Har du 2–3 hele dager i Phuket, kan vi som regel ferdigstille en dress med én eller to prøvinger. Ved svært korte opphold kan vi prioritere skjorter eller enklere plagg, eller gjøre de siste justeringene og sende klærne til hjemmeadressen din. Jo tidligere i oppholdet du besøker oss, desto mer tid har vi til å finjustere passformen."]
   },
   {
     "id": "4",
-    "question": "Hva er prosessen fra første besøk til å hente de ferdige plaggene mine?",
-    "answer": "Det første besøket starter med en konsultasjon: vi diskuterer hva du trenger, stilsmak din og når du reiser fra Phuket. Så tar vi detaljerte mål og hjelper deg med å velge stoffer, foringer, knapper og designdetaljer. Etter at vi skjærer og begynner å bygge plagget ditt, kommer du tilbake til en prøving for å finjustere form og komfort. Vi fullfører deretter den endelige sømmen og pressingen, og du prøver alt én gang til før du tar det med hjem eller får det sendt."
+    "question": "Hvordan er prosessen – fra første besøk til du henter de ferdige plaggene?",
+    "answer": ["Det første besøket starter med en konsultasjon hvor vi snakker om behovene dine, stilpreferanser og når du forlater Phuket. Deretter tar vi nøyaktige mål og hjelper deg med å velge stoff, fôr, knapper og designdetaljer. Når plaggene er klippet og arbeidet er i gang, kommer du tilbake til en prøving for å finjustere passform og komfort. Til slutt ferdigstilles søm og pressing, og du prøver alt én siste gang før du tar plaggene med deg hjem eller får dem sendt."]
   },
   {
     "id": "5",
     "question": "Hvilke stoffer og stiler tilbyr dere for menns og kvinners målskreddersydde plagg?",
-    "answer": "Vi jobber med et stort utvalg av ull, ullblandinger, bambus, lin, bomull og funksjonsstoffer som passer til ulike klimaer og anledninger. For menn syr vi forretningsdresser, smoking, blazere, bukser, skjorter og casual plagg. For kvinner lager vi dresser, kjoler, skjørt, bluser og kveldantrekk. Enten du foretrekker klassiske, tidløse kutt eller mer moderne, slanke silhuetter, kan vi anbefale stoffer og stiler som passer kroppen din, klesskapet ditt og budsjettet ditt."
+    "answer": ["Vi jobber med et stort utvalg av ull, ullblandinger, bambus, lin, bomull og funksjonsstoffer som passer til ulike klimaer og anledninger. For menn syr vi forretningsdresser, smoking, blazere, bukser, skjorter og casual plagg. For kvinner lager vi dresser, kjoler, skjørt, bluser og kveldantrekk. Enten du foretrekker klassiske, tidløse kutt eller mer moderne, slanke silhuetter, kan vi anbefale stoffer og stiler som passer kroppen din, klesskapet ditt og budsjettet ditt."]
   },
   {
     "id": "6",
     "question": "Hvordan sikrer dere perfekt passform og langvarig komfort?",
-    "answer": "Passformen starter med nøyaktige målinger og en ærlig samtale om hvordan du vil at klærne skal sitte – tettere på kroppen, mer avslappet eller et sted imellom. Vi lager mønstre til din spesifikke kroppsform og bruker mellomliggende prøvinger for å justere skråningen på skuldrene, bryst, midje, setet og erme- og bukselengder. Små detaljer som ermhullsdybde og jakkebalanse betyr mye når du bruker dressen hele dagen, så vi legger spesiell vekt på disse områdene for å gi deg både et ryddig uttrykk og ekte komfort."
+    "answer": ["God passform starter med nøyaktige mål og en ærlig samtale om hvordan du ønsker at klærne skal føles – tettere mot kroppen, mer avslappet eller et sted imellom. Vi utarbeider mønstre tilpasset din unike kroppsfasong og bruker mellomprøvinger for å justere skulderhelning, bryst, midje, sete samt erme- og benlengde. Små detaljer som dybden på ermehullet og balansen i jakken har stor betydning når plagget brukes en hel dag, derfor legger vi ekstra vekt på disse områdene for å gi deg både et rent uttrykk og ekte komfort."]
   },
   {
     "id": "7",
-    "question": "Kan dere kopiere en favorittdress eller skjorte jeg allerede eier, eller jobbe ut fra bilder?",
-    "answer": "Absolutt. Mange kunder tar med en favorittdress eller skjorte som sitter bra eller har detaljer de elsker. Vi kan ta mål fra det plagget og gjenopprette stilen i nye stoffer, ofte med små forbedringer av passformen. Hvis du ikke har plagget med deg, kan vi også jobbe ut fra tydelige bilder eller inspirasjonsbilder og tilpasse designet til kroppen din og reiseplanen din."
+    "question": "Kan dere kopiere en dress eller skjorte jeg allerede eier, eller jobbe ut fra bilder?",
+    "answer": ["Absolutt. Mange kunder tar med seg en favorittdress eller skjorte som sitter godt eller har detaljer de liker. Vi kan ta mål fra plagget og gjenskape stilen i nye stoffer, ofte med små justeringer for å forbedre passformen. Har du ikke plagget med deg, kan vi også jobbe ut fra tydelige bilder eller inspirasjonsbilder og tilpasse designet til kroppen din og reiseplanen din."]
   },
   {
     "id": "8",
     "question": "Hva koster det, og hva påvirker prisen på en skreddersydd dress eller skjorte?",
-    "answer": "Prisen avhenger hovedsakelig av stoffet du velger, designets kompleksitet og antall plagg du bestiller. Vi tilbyr et utvalg av stoffalternativer for ulike budsjetter, fra kvalitetsdagligdagsstoffer til premium ull og luksusblandinger. Under det første besøket er vi åpne om alle kostnader og kan foreslå kombinasjoner og pakker som gir deg best valuta uten å gå på kompromiss med passform eller kvalitet."
+    "answer": ["Prisen avhenger hovedsakelig av stoffet du velger, designets kompleksitet og antall plagg du bestiller. Vi tilbyr et utvalg av stoffalternativer for ulike budsjetter, fra kvalitetsdagligdagsstoffer til premium ull og luksusblandinger. Under det første besøket er vi åpne om alle kostnader og kan foreslå kombinasjoner og pakker som gir deg best valuta uten å gå på kompromiss med passform eller kvalitet."]
   },
   {
     "id": "9",
     "question": "Tilbyr dere verdensomspennende forsendelse eller oppfølgende endringer når jeg er kommet hjem?",
-    "answer": "Ja. Hvis reiseplanen din er stram eller du foretrekker å ikke dra alt med deg, kan vi nøye pakke og sende de ferdige plaggene dine til hjemmeadressen. Siden vi oppbevarer mål og mønstre dine, kan vi også rådgive deg på avstand hvis du noen gang trenger mindre justeringer og i mange tilfeller veilede den lokale skredderen din. Målet vårt er at du føler deg støttet selv etter at du har forlatt Phuket."
+    "answer": ["Ja. Hvis reiseplanen din er stram eller du foretrekker å ikke dra alt med deg, kan vi nøye pakke og sende de ferdige plaggene dine til hjemmeadressen. Siden vi oppbevarer mål og mønstre dine, kan vi også rådgive deg på avstand hvis du noen gang trenger mindre justeringer og i mange tilfeller veilede den lokale skredderen din. Målet vårt er at du føler deg støttet selv etter at du har forlatt Phuket."]
   },
   {
     "id": "10",
     "question": "Kan jeg bestille flere dresser eller skjorter fra utlandet etter mitt første besøk?",
-    "answer": "Når vi har laget det første plagget ditt, oppbevares mål, mønstre og stilpreferansene dine sikkert. Det betyr at du kan e-poste eller sende oss melding hjemmefra for å bestille flere dresser, bukser eller skjorter uten å måtte måles på nytt personlig. Du kan velge nye stoffer og detaljer på avstand, og vi sender de ferdige varene til deg worldwide."
+    "answer": ["Når vi har laget det første plagget ditt, oppbevares mål, mønstre og stilpreferansene dine sikkert. Det betyr at du kan e-poste eller sende oss melding hjemmefra for å bestille flere dresser, bukser eller skjorter uten å måtte måles på nytt personlig. Du kan velge nye stoffer og detaljer på avstand, og vi sender de ferdige varene til deg worldwide."]
   },
   {
     "id": "11",
     "question": "Hva gjør en målskreddersydd dress fra No.1 Armani Suits annerledes enn konfeksjon eller \"hurtigskredder\"-løsninger?",
-    "answer": "Konfeksjon lages i standardstørrelser, og mange \"hurtige\" skreddertjenester fokuserer på hastighet fremfor langvarig kvalitet. Vår målskreddersydde tilnærming starter med kroppen din og livsstilen din: vi bygger mønsteret rundt deg, bruker bedre konstruksjon inne i jakken og buksene og tar oss tid til prøvinger slik at dressen ser skarp ut fra alle vinkler. Resultatet er plagg som føles som om de tilhører deg alene, med overlegen komfort, renere linjer og en levetid som rettferdiggjør investeringen."
+    "answer": ["Konfeksjon lages i standardstørrelser, og mange \"hurtige\" skreddertjenester fokuserer på hastighet fremfor langvarig kvalitet. Vår målskreddersydde tilnærming starter med kroppen din og livsstilen din: vi bygger mønsteret rundt deg, bruker bedre konstruksjon inne i jakken og buksene og tar oss tid til prøvinger slik at dressen ser skarp ut fra alle vinkler. Resultatet er plagg som føles som om de tilhører deg alene, med overlegen komfort, renere linjer og en levetid som rettferdiggjør investeringen."]
   },
   {
     "id": "12",
     "question": "Må jeg bestille time, og hvordan kan jeg planlegge en prøving mens jeg er i Phuket?",
-    "answer": "Drop-in er mer enn velkomne – kom inn når det passer deg. Hvis du foretrekker å bestille time for å sikre at vi kan gi deg vår fulle oppmerksomhet, særlig i høysesongen, vennligst ring oss eller ta kontakt via WhatsApp med reisedatoene dine. Vi foreslår passende tidspunkter for din første konsultasjon og prøvinger. Hvis du allerede vet at du vil ha laget en dress eller skjorter, hjelper det oss med å planlegge arbeidet å ta kontakt før du ankommer Phuket, slik at alt er klart før du flyr hjem."
+    "answer": ["Drop-in er mer enn velkomne – kom inn når det passer deg. Hvis du foretrekker å bestille time for å sikre at vi kan gi deg vår fulle oppmerksomhet, særlig i høysesongen, vennligst ring oss eller ta kontakt via WhatsApp med reisedatoene dine. Vi foreslår passende tidspunkter for din første konsultasjon og prøvinger. Hvis du allerede vet at du vil ha laget en dress eller skjorter, hjelper det oss med å planlegge arbeidet å ta kontakt før du ankommer Phuket, slik at alt er klart før du flyr hjem."]
   }
 ]

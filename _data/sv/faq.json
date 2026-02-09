@@ -1,62 +1,66 @@
 [
   {
     "id": "1",
-    "question": "Varför ska jag välja No.1 Armani Suits framför andra skräddare i Phuket?",
-    "answer": "Vi har över 25 års erfarenhet av att skapa måttbeställda plagg åt besökare och kunder världen över. Varje plagg skärs och sys individuellt efter dina mått med högkvalitativa tyger och tidtestade tekniker för hållbarhet och komfort. Vi stressar aldrig de viktiga stegen: noggrann konsultation, detaljerade mätningar och ordentliga provningar. Vårt mål är enkelt – att du lämnar Phuket med kläder du är genuint stolt över att bära i många år, inte bara en snabb \"semesterkostym\"."
+    "question": "Varför ska jag välja No.1 Armani Suits istället för andra skräddare i Phuket?",
+    "answer": [
+      "Vi har över 25 års erfarenhet av att skapa skräddarsydda plagg efter mått för besökare och kunder från hela världen. Varje plagg skärs och sys individuellt efter dina mått, med högkvalitativa tyger och beprövade skrädderitekniker som ger både hållbarhet och komfort. Vi stressar aldrig de viktiga momenten – noggrann konsultation, exakta mått och ordentliga provningar är en självklar del av processen.",
+      "Minst lika viktigt för oss är upplevelsen. Vi är alltid måna om att möta våra kunder med ett vänligt bemötande, gott humör och ett lugnt tempo. Vi talar flera språk och lägger stor vikt vid att du ska känna dig bekväm, lyssnad på och trygg genom hela processen – oavsett om det är ditt första skräddarsydda plagg eller om du är van kund.",
+"Vårt mål är enkelt: att du lämnar Phuket med kläder du verkligen trivs i och är stolt över att bära i många år framöver – inte bara en snabb ”semesterkostym”."
+    ]
   },
   {
     "id": "2",
-    "question": "Hur lång tid tar det att göra en skräddarsydd kostym eller skjorta medan jag är på semester?",
-    "answer": "För de flesta besökare tar en skräddarsydd kostym cirka 2–4 dagar, inklusive minst en provning. Skräddarsydda skjortor kan ofta vara klara på 24–48 timmar beroende på antal plagg och vår schema. Om du berättar dina resedatum i förväg kan vi planera provningstiderna runt dina utflykter så du fortfarande njuter av semestern medan dina plagg tillverkas."
+    "question": "Hur lång tid tar det att sy en skräddarsydd kostym eller skjorta under min semester?",
+    "answer": ["För de flesta besökare tar en skräddarsydd kostym cirka 2–4 dagar, inklusive minst en provning. Skräddarsydda skjortor kan ofta vara klara inom 24–48 timmar, beroende på antal plagg och vår arbetsbelastning. Om du meddelar dina resedatum i förväg kan vi planera provningarna runt dina utflykter, så att du kan njuta av semestern medan dina plagg sys."]
   },
   {
     "id": "3",
-    "question": "Jag är bara i Phuket några dagar – räcker tiden till provningar och ändringar?",
-    "answer": "I många fall ja. Om du har 2–3 fulla dagar i Phuket kan vi vanligtvis slutföra en kostym med en eller två provningar. Vid mycket korta vistelser kan vi prioritera skjortor eller enklare plagg, eller slutföra sista justeringar och skicka plaggen till din hemadress. Ju tidigare på resan du besöker oss, desto mer tid har vi att perfektionera passformen."
+    "question": "Jag är bara i Phuket i några dagar – finns det tillräckligt med tid för provningar och justeringar?",
+    "answer": ["I många fall, ja. Om du har 2–3 hela dagar i Phuket kan vi oftast färdigställa en kostym med en eller två provningar. Vid mycket korta vistelser kan vi prioritera skjortor eller enklare plagg, eller göra de sista justeringarna och skicka plaggen till din hemadress. Ju tidigare under din resa du besöker oss, desto mer tid har vi att finjustera passformen."]
   },
   {
     "id": "4",
-    "question": "Vad är processen från första besöket till att hämta mina färdiga plagg?",
-    "answer": "Ditt första besök börjar med en konsultation: vi diskuterar vad du behöver, dina stilpreferenser och när du lämnar Phuket. Sedan tar vi detaljerade mätningar och hjälper dig välja tyger, foder, knappar och designdetaljer. Efter att vi skär och börjar bygga dina plagg återvänder du för en provning för att finjustera form och komfort. Vi slutför sedan den sista sömmen och pressningen, och du provar allt en gång till innan du tar med det hem eller får det skickat."
+    "question": "Hur går processen till – från första besöket till att hämta mina färdiga plagg?",
+    "answer": ["Ditt första besök börjar med en konsultation där vi går igenom vad du behöver, din stil och när du lämnar Phuket. Därefter tar vi noggranna mått och hjälper dig att välja tyg, foder, knappar och design­detaljer. När vi har skurit till och påbörjat sömnaden bokar vi in en provning för att finjustera passform och komfort. Därefter färdigställs plaggen med sista sömnad och pressning, och du provar allt en sista gång innan du tar med dig plaggen hem eller får dem skickade."]
   },
   {
     "id": "5",
     "question": "Vilka tyger och stilar erbjuder ni för mäns och kvinnors måttbeställda plagg?",
-    "answer": "Vi arbetar med ett stort utbud av ull, ullblandningar, bambu, linne, bomull och funktionstyg lämpliga för olika klimat och tillfällen. För män skräddarsyr vi affärskostymer, smokingar, blazrar, byxor, skjortor och casual plagg. För kvinnor skapar vi kostymer, klänningar, kjolar, blusar och kvällsplagg. Oavsett om du föredrar klassiska, tidlösa klipp eller mer moderna, smala silhuetter kan vi rekommendera tyger och stilar som passar din kropp, din garderob och din budget."
+    "answer": ["Vi arbetar med ett stort utbud av ull, ullblandningar, bambu, linne, bomull och funktionstyg lämpliga för olika klimat och tillfällen. För män skräddarsyr vi affärskostymer, smokingar, blazrar, byxor, skjortor och casual plagg. För kvinnor skapar vi kostymer, klänningar, kjolar, blusar och kvällsplagg. Oavsett om du föredrar klassiska, tidlösa klipp eller mer moderna, smala silhuetter kan vi rekommendera tyger och stilar som passar din kropp, din garderob och din budget."]
   },
   {
     "id": "6",
     "question": "Hur säkerställer ni perfekt passform och långvarig komfort?",
-    "answer": "Passformen börjar med noggranna mätningar och en ärlig samtal om hur du vill att dina kläder ska kännas – tätare mot kroppen, mer avslappnat eller någonstans däremellan. Vi ritar mönster efter din specifika kroppsform och använder mellanliggande provningar för att justera axellutning, bröst, midja, sätet samt ärm- och byxlängder. Små detaljer som ärmhålsdjup och jackbalans spelar stor roll när du bär kostymen hela dagen, så vi lägger särskild vikt vid dessa områden för att ge dig både ett snyggt utseende och verklig komfort."
+    "answer": ["En bra passform börjar med exakta mått och ett öppet samtal om hur du vill att dina kläder ska kännas – kroppsnära, mer avslappnat eller någonstans däremellan. Vi konstruerar mönster anpassade efter just din kropp och använder mellanprovningar för att justera axellutning, bröst, midja, säte samt ärm- och benlängd. Små detaljer som ärmhålsdjup och kavajens balans gör stor skillnad när du bär plagget en hel dag, därför lägger vi extra omsorg på dessa för att ge dig både ett stilrent uttryck och verklig komfort."]
   },
   {
     "id": "7",
-    "question": "Kan ni kopiera en favoritkostym eller skjorta jag redan äger, eller arbeta utifrån bilder?",
-    "answer": "Absolut. Många kunder tar med en favoritkostym eller skjorta som sitter bra eller har detaljer de älskar. Vi kan ta mått från det plagget och återskapa stilen i nya tyger, ofta med små förbättringar av passformen. Om du inte har plagget med dig kan vi också arbeta utifrån tydliga foton eller inspirationsbilder och anpassa designen till din kropp och din resplan."
+    "question": "Kan ni kopiera en kostym eller skjorta jag redan äger, eller arbeta utifrån bilder?",
+    "answer": ["Absolut. Många kunder tar med sig en favoritkostym eller skjorta som sitter bra eller har detaljer de tycker om. Vi kan ta mått från plagget och återskapa stilen i nya tyger, ofta med mindre justeringar för att förbättra passformen. Om du inte har plagget med dig kan vi även arbeta utifrån tydliga foton eller inspirationsbilder och anpassa designen efter din kropp och ditt reseschema."]
   },
   {
     "id": "8",
     "question": "Vad kostar det, och vad påverkar priset på en skräddarsydd kostym eller skjorta?",
-    "answer": "Priset beror främst på tyget du väljer, designens komplexitet och antal plagg du beställer. Vi erbjuder ett utbud av tygalternativ för olika budgetar, från kvalitetsvardagstyg till premium ull och lyxblandningar. Under ditt första besök är vi öppna med alla kostnader och kan föreslå kombinationer och paket som ger dig bäst valuta utan att kompromissa med passform eller kvalitet."
+    "answer": ["Priset beror främst på tyget du väljer, designens komplexitet och antal plagg du beställer. Vi erbjuder ett utbud av tygalternativ för olika budgetar, från kvalitetsvardagstyg till premium ull och lyxblandningar. Under ditt första besök är vi öppna med alla kostnader och kan föreslå kombinationer och paket som ger dig bäst valuta utan att kompromissa med passform eller kvalitet."]
   },
   {
     "id": "9",
     "question": "Erbjuder ni världsomspännande leverans eller efterförsäljningsändringar när jag är tillbaka hemma?",
-    "answer": "Ja. Om din resplan är tight eller du föredrar att inte bära med dig allt kan vi noggrant packa och skicka dina färdiga plagg till din hemadress. Eftersom vi sparar dina mått och mönster kan vi också rådge dig på distans om du någonsin behöver mindre justeringar och i många fall guida din lokala skräddare. Vårt mål är att du ska känna dig stöttad även efter att du lämnat Phuket."
+    "answer": ["Ja. Om din resplan är tight eller du föredrar att inte bära med dig allt kan vi noggrant packa och skicka dina färdiga plagg till din hemadress. Eftersom vi sparar dina mått och mönster kan vi också rådge dig på distans om du någonsin behöver mindre justeringar och i många fall guida din lokala skräddare. Vårt mål är att du ska känna dig stöttad även efter att du lämnat Phuket."]
   },
   {
     "id": "10",
     "question": "Kan jag beställa fler kostymer eller skjortor från utlandet efter mitt första besök?",
-    "answer": "När vi har skapat dina första plagg sparas dina mått, mönster och stilpreferenser säkert. Det betyder att du kan e-posta eller messa oss hemifrån för att beställa fler kostymer, byxor eller skjortor utan att behöva mätas om personligen. Du kan välja nya tyger och detaljer på distans, och vi skickar de färdiga varorna till dig worldwide."
+    "answer": ["När vi har skapat dina första plagg sparas dina mått, mönster och stilpreferenser säkert. Det betyder att du kan e-posta eller messa oss hemifrån för att beställa fler kostymer, byxor eller skjortor utan att behöva mätas om personligen. Du kan välja nya tyger och detaljer på distans, och vi skickar de färdiga varorna till dig worldwide."]
   },
   {
     "id": "11",
     "question": "Vad gör en måttbeställd kostym från No.1 Armani Suits annorlunda jämfört med konfektion eller \"snabbskräddare\"-alternativ?",
-    "answer": "Konfektionsplagg tillverkas i standardstorlekar, och många \"snabba\" skräddartjänster fokuserar på hastighet snarare än långsiktig kvalitet. Vår måttbeställda approach börjar med din kropp och din livsstil: vi bygger mönstret runt dig, använder bättre konstruktion inne i jackan och byxorna och tar oss tid för provningar så kostymen ser skarp ut från alla vinklar. Resultatet är plagg som känns som om de tillhör dig ensam, med överlägsen komfort, renare linjer och en livslängd som rättfärdigar investeringen."
+    "answer": ["Konfektionsplagg tillverkas i standardstorlekar, och många \"snabba\" skräddartjänster fokuserar på hastighet snarare än långsiktig kvalitet. Vår måttbeställda approach börjar med din kropp och din livsstil: vi bygger mönstret runt dig, använder bättre konstruktion inne i jackan och byxorna och tar oss tid för provningar så kostymen ser skarp ut från alla vinklar. Resultatet är plagg som känns som om de tillhör dig ensam, med överlägsen komfort, renare linjer och en livslängd som rättfärdigar investeringen."]
   },
   {
     "id": "12",
     "question": "Behöver jag boka tid, och hur kan jag planera en provning medan jag är i Phuket?",
-    "answer": "Drop-in är mer än välkomna – kom förbi när det passar dig. Om du föredrar att boka tid för att säkerställa att vi kan ge dig vår fulla uppmärksamhet, särskilt under högsäsong, ring oss eller kontakta oss via WhatsApp med dina resedatum. Vi föreslår lämpliga tider för din första konsultation och provningar. Om du redan vet att du vill ha en kostym eller skjortor gjorda hjälper det oss att planera arbetet om du hör av dig innan du anländer till Phuket så att allt är klart innan du flyger hem."
+    "answer": ["Drop-in är mer än välkomna – kom förbi när det passar dig. Om du föredrar att boka tid för att säkerställa att vi kan ge dig vår fulla uppmärksamhet, särskilt under högsäsong, ring oss eller kontakta oss via WhatsApp med dina resedatum. Vi föreslår lämpliga tider för din första konsultation och provningar. Om du redan vet att du vill ha en kostym eller skjortor gjorda hjälper det oss att planera arbetet om du hör av dig innan du anländer till Phuket så att allt är klart innan du flyger hem."]
   }
 ]

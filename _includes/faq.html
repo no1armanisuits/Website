@@ -9,7 +9,7 @@
             {% for item in faq %}
             <details class="faq__item" id="faq-q{{ item.id }}" data-scroll-animate="fadeInUp">
                 <summary class="faq__question">{{ item.question }}</summary>
-                <div class="faq__answer">{{ item.answer }}</div>
+                <div class="faq__answer">{% for paragraph in item.answer %}<p>{{ paragraph }}</p>{% endfor %}</div>
             </details>
             {% endfor %}
         </div>
