@@ -1,6 +1,6 @@
 # Website
 
-Jekyll site for No.1 Armani Suits. Repo root is the site root.
+Jekyll site for No.1 Armani Suits. Repo root is the site root. Production URL: **https://www.no1armanisuits.com**
 
 ## Generate locally
 
@@ -17,3 +17,11 @@ To only build the static files (no server):
 bundle exec jekyll build
 ```
 Output goes to `_site/`.
+
+## Before launch
+
+- **Domain**: `url` in `_config.yml` is set to https://www.no1armanisuits.com.
+- **SEO**: Sitemap (`/sitemap.xml`), `robots.txt`, hreflang, canonical, meta description, and Open Graph/Twitter tags are in place.
+- **404**: Custom `404.html` is included (used automatically on GitHub Pages).
+- **Favicon**: Add a `favicon.ico` in the site root if you want a custom favicon; the layout already links to it.
+- **Host**: Point the domain’s DNS to your host (e.g. GitHub Pages), then enable the custom domain in the host’s settings.

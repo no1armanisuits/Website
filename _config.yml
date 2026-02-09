@@ -1,7 +1,10 @@
 # Jekyll configuration for No.1 Armani Suits
 # Repo root is site root. Set baseurl for GitHub Pages project site (e.g. /armani).
 title: "No.1 Armani Suits"
+description: "Custom tailored suits in the heart of Patong, Phuket. Premium fabrics, 2–4 day turnaround. Walk in or book via WhatsApp."
 # Production domain; used for hreflang, canonical, sitemap, and robots.txt.
 url: "https://www.no1armanisuits.com"
 baseurl: "" # e.g. /armani for project site; leave empty for custom domain at root
 lang: en
+# Social sharing (Open Graph / Twitter). Image path relative to site root; 1200×630 recommended.
+og_image: "/images/hero/hero_1200.webp"
