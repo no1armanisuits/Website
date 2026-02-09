@@ -1,7 +1,7 @@
 # Jekyll configuration for No.1 Armani Suits
 # Repo root is site root. Set baseurl for GitHub Pages project site (e.g. /armani).
 title: "No.1 Armani Suits"
-# Set url for production (e.g. https://username.github.io or custom domain) so hreflang/canonical use absolute URLs.
-url: ""
-baseurl: "" # e.g. /armani for project site; leave empty for local dev and user site
+# Production domain; used for hreflang, canonical, sitemap, and robots.txt.
+url: "https://www.no1armanisuits.com"
+baseurl: "" # e.g. /armani for project site; leave empty for custom domain at root
 lang: en

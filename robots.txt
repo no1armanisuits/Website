@@ -1,0 +1,9 @@
+---
+layout: null
+---
+User-agent: *
+Allow: /
+
+{% if site.url != "" %}
+Sitemap: {{ site.url }}{{ site.baseurl }}/sitemap.xml
+{% endif %}
