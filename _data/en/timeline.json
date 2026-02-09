@@ -1,6 +1,6 @@
 {
   "title": "Your journey to perfection",
-  "subtitle": "Refined stitch by stitch—from first consultation to final fit, every step is crafted with care",
+  "subtitle": "Refined stitch by stitch, from first consultation to final fit, every step is crafted with care",
   "steps": [
     {
       "icon": "images/icons/conversation.svg",
@@ -18,13 +18,13 @@
       "icon": "images/icons/measurements.svg",
       "icon_alt": "Measurements",
       "heading": "Measurements",
-      "text": "Measured by hand to ensure a flawless fit—every detail matters for a suit designed for your body."
+      "text": "Measured by hand to ensure a flawless fit, every detail matters for a suit designed for your body."
     },
     {
       "icon": "images/icons/fitting.svg",
       "icon_alt": "Fitting",
       "heading": "Fitting",
-      "text": "Try on your suit—your fit—and we make any adjustments so every detail is right."
+      "text": "Try on your suit, your fit, and we make any adjustments so every detail is right."
     },
     {
       "icon": "images/icons/delivery.svg",
