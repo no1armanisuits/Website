@@ -417,15 +417,17 @@ section .section__subtitle {
 }
 
 .map-section__title {
-    color: #1a1a1a;
-    margin-bottom: 40px;
+    color: #663E3E;
+    
     font-size: 2.2em;
     text-align: left;
     font-weight: 300;
     text-transform: uppercase;
-    padding-bottom: 20px;
-    border-bottom: 1px solid #e0e0e0;
     font-family: 'Tiro Bangla', 'Times New Roman', serif;
+}
+
+.map-section__subtitle {
+    color: #7E6B59;
 }
 
 .map-section__link {
