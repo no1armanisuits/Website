@@ -263,7 +263,7 @@ header h1 {
     color: #FFF7F2;
 }
 
-/* Call to action – shared style */
+/* Call to action - shared style */
 .cta,
 .header__cta {
     display: inline-block;
@@ -617,7 +617,7 @@ footer a:focus {
 }
 }
 
-/* Scroll-triggered animations (Animate.css) – hidden until animation runs */
+/* Scroll-triggered animations (Animate.css) - hidden until animation runs */
 [data-scroll-animate] {
     --animate-duration: 1.2s;
     opacity: 0;
