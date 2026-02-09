@@ -1,8 +1,9 @@
+{% assign lang_gallery = site.data[page.lang].gallery %}
 {% assign g = site.data.gallery %}
 <section id="gallery" class="gallery">
     <div class="section-inner">
-        <h2 class="gallery__title section__headline" data-scroll-animate="fadeInUp">{{ g.title }}</h2>
-        <p class="gallery__subtitle section__subtitle" data-scroll-animate="fadeInUp">{{ g.subtitle }}</p>
+        <h2 class="gallery__title section__headline" data-scroll-animate="fadeInUp">{{ lang_gallery.title }}</h2>
+        <p class="gallery__subtitle section__subtitle" data-scroll-animate="fadeInUp">{{ lang_gallery.subtitle }}</p>
         <a href="{{ g.link }}" target="_blank" rel="noopener" class="gallery__link">
             <div class="marquee" data-marquee data-marquee-speed="{{ g.marquee_speed }}">
                 <div class="marquee__strip">

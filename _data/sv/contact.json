@@ -1,10 +1,8 @@
 {
-  "headline": "Hitta oss",
+  "headline": "Hitta till oss",
   "paragraphs": [
-    "Det enklaste sättet att påbörja din resa till det perfekta skräddarsydda plagget är att helt enkelt gå in i vår skräddeributik i hjärtat av Patong.",
-    "Om du vill boka i förväg, kontakta oss gärna på ",
-    ". Vi svarar gärna på alla dina frågor både personligen i butiken och på WhatsApp. Följ oss på ",
-    " för inspiration."
+    "Det enklaste sättet att påbörja din resa mot ett perfekt skräddarsytt plagg är att helt enkelt titta in i vår skräddarbutik i hjärtat av Patong.",
+    "Vill du boka i förväg är du varmt välkommen att kontakta oss via WhatsApp. Vi svarar gärna på dina frågor – både personligen i butiken och via WhatsApp. Följ oss gärna på Facebook för inspiration."
   ],
   "whatsapp_url": "https://wa.me/66933742851",
   "facebook_url": "https://www.facebook.com/no1armanisuits",
@@ -32,5 +30,5 @@
     }
   ],
   "image_src": "images/intro-image.webp",
-  "image_alt": "No.1 Armani Suits – skräddarsöm i Phuket"
+  "image_alt": "No.1 Armani Suits - skräddarsöm i Phuket"
 }

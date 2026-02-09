@@ -1,8 +1,9 @@
+{% assign lang_reviews = site.data[page.lang].reviews %}
 {% assign r = site.data.reviews %}
 <section id="reviews" class="reviews" aria-labelledby="reviews-heading">
     <div class="section-inner">
-        <h2 id="reviews-heading" class="reviews__title section__headline" data-scroll-animate="fadeInUp">Client Testimonials</h2>
-        <p class="reviews__subtitle section__subtitle" data-scroll-animate="fadeInUp">What our clients say about us</p>
+        <h2 id="reviews-heading" class="reviews__title section__headline" data-scroll-animate="fadeInUp">{{ lang_reviews.title }}</h2>
+        <p class="reviews__subtitle section__subtitle" data-scroll-animate="fadeInUp">{{ lang_reviews.subtitle }}</p>
     </div>
     <div class="marquee" data-marquee data-marquee-speed="0.2">
         <div class="marquee__strip">
