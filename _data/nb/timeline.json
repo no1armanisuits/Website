@@ -1,36 +1,36 @@
 {
-  "title": "Din reise til perfeksjon",
-  "subtitle": "Finpusset sting for sting – fra første konsultasjon til endelig passform, hvert steg er skapt med omtanke",
+  "title": "Din reise mot perfekt passform",
+  "subtitle": "Sting for sting, fra første konsultasjon til siste prøving, utføres hvert steg med omtanke og presisjon.",
   "steps": [
     {
       "icon": "images/icons/conversation.svg",
       "icon_alt": "Konsultasjon",
       "heading": "Konsultasjon",
-      "text": "Møt skredderen din for å diskutere din stil, preferanser og anledning."
+      "text": "Du møter din skredder for å gå gjennom stil, ønsker og anledning."
     },
     {
       "icon": "images/icons/fabric-selection.svg",
-      "icon_alt": "Stoffvalg",
-      "heading": "Stoffvalg",
-      "text": "Velg blant vårt eksklusive utvalg av de fineste stoffene til ditt håndlagde stykke."
+      "icon_alt": "Valg av stoff",
+      "heading": "Valg av stoff",
+      "text": "Velg blant vårt eksklusive utvalg av nøye utvalgte stoffer til ditt skreddersydde plagg."
     },
     {
       "icon": "images/icons/measurements.svg",
-      "icon_alt": "Målinger",
-      "heading": "Målinger",
-      "text": "Målt for hånd for en feilfri passform – hver detalj teller for en dress designet for kroppen din."
+      "icon_alt": "Måltaking",
+      "heading": "Måltaking",
+      "text": "Presise håndmål sikrer en feilfri passform, hver detalj teller når plagget formes etter din kropp."
     },
     {
       "icon": "images/icons/fitting.svg",
       "icon_alt": "Prøving",
       "heading": "Prøving",
-      "text": "Prøv dressen din – din passform – og vi justerer slik at hver detalj er som den skal være."
+      "text": "Du prøver plagget, og vi gjør de justeringene som trengs for at alt skal sitte perfekt."
     },
     {
       "icon": "images/icons/delivery.svg",
-      "icon_alt": "Levering",
-      "heading": "Endelig levering",
-      "text": "Motta mesterverket ditt, perfekt skapt og klart til å gjøre inntrykk. Vi sender worldwide."
+      "icon_alt": "Ferdig plagg",
+      "heading": "Ferdig plagg",
+      "text": "Plagget ditt er klart! Skreddersydd med presisjon og klart til å bæres. Vi tilbyr også levering til hele verden."
     }
   ],
   "cta_text": "Klar for å finne passformen din?",
