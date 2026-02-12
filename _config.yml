@@ -8,3 +8,7 @@ baseurl: "" # e.g. /armani for project site; leave empty for custom domain at ro
 lang: en
 # Social sharing (Open Graph / Twitter). Image path relative to site root; 1200×630 recommended.
 og_image: "/images/hero/hero_1200.webp"
+# Social profile URLs for Organization schema (sameAs). Used in structured data and contact section.
+same_as:
+  - "https://www.facebook.com/no1armanisuits"
+  - "https://www.instagram.com/no1armanisuits/"

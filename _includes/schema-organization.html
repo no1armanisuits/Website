@@ -1,0 +1,26 @@
+{% comment %}
+  Organization schema for SEO. Includes sameAs (Facebook, Instagram, etc.) so search engines can associate social profiles with the business.
+{% endcomment %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": {{ site.title | jsonify }},
+  "url": {{ site.url | append: site.baseurl | jsonify }},
+  "description": {{ site.description | jsonify }},
+  "telephone": "+66-93-374-2851",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "206/1 Rat Uthit Song Roi Pi Rd, Patong",
+    "addressLocality": "Kathu District",
+    "addressRegion": "Phuket",
+    "postalCode": "83150",
+    "addressCountry": "TH"
+  },
+  "sameAs": [
+    {% for url in site.same_as %}
+    {{ url | jsonify }}{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+}
+</script>
