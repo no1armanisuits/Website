@@ -113,10 +113,35 @@
     });
   }
 
+  /**
+   * Google Ads click conversions. Labels are set in _config.yml (google_ads.conversions)
+   * and exposed as window.adsConversions in head.html. Empty label = not tracked.
+   */
+  function classifyContactLink(href) {
+    if (!href) return null;
+    if (href.indexOf('wa.me/') !== -1 || href.indexOf('api.whatsapp.com') !== -1) return 'whatsapp';
+    if (href.indexOf('tel:') === 0) return 'phone';
+    if (href.indexOf('google.com/maps') !== -1 || href.indexOf('maps.app.goo.gl') !== -1) return 'directions';
+    return null;
+  }
+
+  function initConversionTracking() {
+    var cfg = window.adsConversions;
+    if (!cfg || typeof window.gtag !== 'function') return;
+    document.addEventListener('click', function (e) {
+      var link = e.target.closest ? e.target.closest('a[href]') : null;
+      if (!link) return;
+      var type = classifyContactLink(link.getAttribute('href'));
+      if (!type || !cfg[type]) return;
+      window.gtag('event', 'conversion', { send_to: cfg.id + '/' + cfg[type] });
+    });
+  }
+
   function onReady() {
     init();
     initGalleryLazy();
     initScrollAnimate();
+    initConversionTracking();
   }
 
   if (document.readyState === 'loading') {

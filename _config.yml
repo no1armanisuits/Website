@@ -12,3 +12,12 @@ og_image: "/images/hero/hero_1200.webp"
 same_as:
   - "https://www.facebook.com/no1armanisuits"
   - "https://www.instagram.com/no1armanisuits/"
+
+# Google Ads. Conversion labels come from Google Ads > Goals > Conversions > (action) > Tag setup.
+# A label left empty means that click type is not sent as a conversion.
+google_ads:
+  id: "AW-17805724672"
+  conversions:
+    whatsapp: "xsO7CODJpbMdEICYt6pC"
+    phone: "eFDgCOPJpbMdEICYt6pC"
+    directions: "Xt8JCObJpbMdEICYt6pC"
